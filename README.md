@@ -7,9 +7,13 @@ C'est le « second cerveau » de Rose : un seul endroit pour retrouver chaque pr
 
 Contenu initial tiré de l'inventaire du 19/10/2026 (sessions Claude Code et Codex). Les informations incertaines sont marquées *(à confirmer)* ou listées dans « À compléter ».
 
+**Si Rose est indisponible** : commencer par [continuite.md](continuite.md) (plan de continuité), puis faire lire à toute IA [guides/manieres-de-travailler-rose.md](guides/manieres-de-travailler-rose.md).
+
 ## Navigation
 | Rubrique | Contenu |
 |---|---|
+| [continuite.md](continuite.md) | Plan de continuité : quoi lire en premier, règles globales de Rose |
+| [guides/manieres-de-travailler-rose.md](guides/manieres-de-travailler-rose.md) | Consignes pour une IA qui travaille au nom de Rose (remarques récurrentes, support, chantiers, UX) |
 | [projets/](projets/README.md) | Index et une page par projet |
 | [projets/en-sommeil.md](projets/en-sommeil.md) | Projets en sommeil, personnels ou abandonnés |
 | [automatisations/](automatisations/README.md) | Tâches planifiées Claude, automatisations Codex, skills, commandes |
