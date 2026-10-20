@@ -6,8 +6,12 @@ Points semblant oubliés ou inachevés (inventaire du 19/10/2026). Cocher ou dé
 
 ## Urgent (19/10)
 - [ ] URL FormaKit à rétablir → [FormaKit](../projets/formakit.md)
-- [ ] Accès HR Tech et page exposant → [Congrès](../projets/congres.md)
-- [ ] Demande de réduction OpenPaye → [SmartDataPay](../projets/smartdatapay.md)
+- [x] Accès HR Tech et page exposant → [Congrès](../projets/congres.md) — clôturé 20/10 (fait avec Codex), voir [décisions](decisions.md)
+- [x] Demande de réduction OpenPaye → [SmartDataPay](../projets/smartdatapay.md) — répondu le 19/10 à 23 h 03 (Resend `01a155f9-ff00-71d9-8b06-4aa52d9daade`) ; en attente de C. Exbrayat (formule) puis appliquer -40 %
+
+## Suites des décisions du 20/10 ([décisions](decisions.md))
+- [ ] NIR : envoyer la demande GitHub Support (texte prêt, Rose), re-cloner `logiciel-paie-datapaie` sur le PC sans pull, traiter la PR #125
+- [ ] DataPaie : « ok » final de Rose pour supprimer les 22 scripts (n°13 et les 5 dangereux gardés)
 
 ## Automatisations
 - [ ] Tâches visant l'ancien chemin `Downloads\logiciel-paie` (audit-dsn, code-review, extraction-ccn, smic-check, veille-ccn, meta-agent), non modifiées depuis le 11/03 : tournent-elles encore pour rien ?

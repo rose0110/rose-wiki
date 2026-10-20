@@ -4,6 +4,10 @@ _Généré automatiquement par open_loops.py le 20/10/2026 02:38 (heure de Paris
 
 **Résumé** : 59 réponse(s) attendue(s) · 25 tâche(s) suggérée(s) non lancée(s) · 687 branche(s) non fusionnée(s) dans 23 dépôt(s).
 
+## Mise à jour manuelle du 20/10/2026 (voir [décisions](decisions.md))
+- Traités / clôturés : purge NIR (reste GitHub Support, re-clone sans pull, PR #125), réduction OpenPaye (attente cliente), HR Tech, MCP Silae gratuit, grilles officielles uniquement (session smartdatapay-app 30/09), Signalements DPAE (4 boutons, Fils rouges).
+- En attente de Rose : « ok » final suppression des 22 scripts DataPaie (sessions elegant-moore-992eec 30/09 et nifty-williamson-e6187c concernées).
+
 ## 1. En attente de ta réponse
 
 ### EBOOK 2027
