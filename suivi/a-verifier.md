@@ -6,13 +6,18 @@ Points semblant oubliés ou inachevés (inventaire du 19/10/2026). Cocher ou dé
 
 ## Urgent (19/10)
 - [ ] URL FormaKit à rétablir → [FormaKit](../projets/formakit.md)
-- [x] Accès HR Tech et page exposant → [Congrès](../projets/congres.md) — clôturé 20/10 (fait avec Codex), voir [décisions](decisions.md)
+- [ ] Accès HR Tech et page exposant → [Congrès](../projets/congres.md) — visuels/électricité/mobilier faits ; **kakemono rouvert le 20/10** : B+C choisi, PDF d'impression à faire (session Codex j-ai-re-u-un-email)
 - [x] Demande de réduction OpenPaye → [SmartDataPay](../projets/smartdatapay.md) — répondu le 19/10 à 23 h 03 (Resend `01a155f9-ff00-71d9-8b06-4aa52d9daade`) ; en attente de C. Exbrayat (formule) puis appliquer -40 %
 
 ## Suites des décisions du 20/10 ([décisions](decisions.md))
 - [ ] NIR : envoyer la demande GitHub Support (texte prêt, Rose), re-cloner `logiciel-paie-datapaie` sur le PC sans pull, traiter la PR #125
 - [ ] DataPaie : [PR #572](https://github.com/rose0110/logiciel-paie-datapaie/pull/572) (22 scripts morts) à relire et fusionner
 - [x] Session EBOOK 2027 (correction travaux publics) : validée par Rose dans la session le 20/10
+
+## Décisions du 20/10 vers 12 h
+- [ ] dreamy-boyd-25052d : sortir toutes les démos transcrites (~11)
+- [ ] HUP : mise en ligne de ce qui est prêt, après la vérification de sécurité en cours
+- [x] Sessions abandonnées/dépassées et voix des vidéos : clôturées (voir [décisions](decisions.md))
 
 ## Automatisations
 - [ ] Tâches visant l'ancien chemin `Downloads\logiciel-paie` (audit-dsn, code-review, extraction-ccn, smic-check, veille-ccn, meta-agent), non modifiées depuis le 11/03 : tournent-elles encore pour rien ?
