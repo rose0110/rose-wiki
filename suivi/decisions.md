@@ -24,3 +24,4 @@
 | Kakemono HR Tech (Codex « j-ai-re-u-un-email ») | Rouvert ; direction **B+C** (produit + impact graphique) | Choix de Rose | Rose répond B+C dans la session ; **PDF d'impression reste à faire** (logo, textes, QR fiable, gabarit imprimeur, test QR). Session : `.codex\sessions\2026\10\19\rollout-2026-10-19T17-41-19-01a154d3-….jsonl` |
 | Démos transcrites (dreamy-boyd-25052d) | Sortir **toutes** les démos (~11) | Choix de Rose | À lancer dans la session |
 | HUP (Automatisation Fiona) | Décision du 09/09 levée : mettre en ligne ce qui est prêt | Choix de Rose | Vérification de sécurité en cours avant déploiement |
+| HUP — mots de passe de production | Ne pas changer les mots de passe de production pour l'instant | Décision de Rose (20/10) | — |
