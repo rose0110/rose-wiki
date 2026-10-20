@@ -11,7 +11,8 @@ Points semblant oubliés ou inachevés (inventaire du 19/10/2026). Cocher ou dé
 
 ## Suites des décisions du 20/10 ([décisions](decisions.md))
 - [ ] NIR : envoyer la demande GitHub Support (texte prêt, Rose), re-cloner `logiciel-paie-datapaie` sur le PC sans pull, traiter la PR #125
-- [ ] DataPaie : « ok » final de Rose pour supprimer les 22 scripts (n°13 et les 5 dangereux gardés)
+- [ ] DataPaie : [PR #572](https://github.com/rose0110/logiciel-paie-datapaie/pull/572) (22 scripts morts) à relire et fusionner
+- [x] Session EBOOK 2027 (correction travaux publics) : validée par Rose dans la session le 20/10
 
 ## Automatisations
 - [ ] Tâches visant l'ancien chemin `Downloads\logiciel-paie` (audit-dsn, code-review, extraction-ccn, smic-check, veille-ccn, meta-agent), non modifiées depuis le 11/03 : tournent-elles encore pour rien ?
