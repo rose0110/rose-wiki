@@ -1,34 +1,44 @@
 # Boucles ouvertes
 
-_Généré automatiquement par open_loops.py le 20/10/2026 02:38 (heure de Paris) — fenêtre 30 jours, secrets masqués._
+_Généré automatiquement par open_loops.py le 21/10/2026 02:07 (heure de Paris) — fenêtre 30 jours, secrets masqués._
 
-**Résumé** : 59 réponse(s) attendue(s) · 25 tâche(s) suggérée(s) non lancée(s) · 687 branche(s) non fusionnée(s) dans 23 dépôt(s).
-
-## Mise à jour manuelle du 20/10/2026 (voir [décisions](decisions.md))
-- Traités / clôturés : purge NIR (reste GitHub Support, re-clone sans pull, PR #125), réduction OpenPaye (attente cliente), HR Tech, MCP Silae gratuit, grilles officielles uniquement (session smartdatapay-app 30/09), Signalements DPAE (4 boutons, Fils rouges).
-- En attente de Rose : « ok » final suppression des 22 scripts DataPaie (sessions elegant-moore-992eec 30/09 et nifty-williamson-e6187c concernées).
-
-- 20/10 vers 12 h : sessions abandonnées/dépassées et voix des vidéos clôturées ; kakemono HR Tech rouvert (B+C, PDF à faire) ; dreamy-boyd → toutes les démos ; HUP → mise en ligne après vérification de sécurité. Détail dans [décisions](decisions.md).
+**Résumé** : 53 réponse(s) attendue(s) · 22 tâche(s) suggérée(s) non lancée(s) · 752 branche(s) non fusionnée(s) dans 23 dépôt(s).
 
 ## 1. En attente de ta réponse
 
+### ecstatic-lichterman-57976f
+- **21/10 02:51** (Claude) — _Another Claude session sent a message: <cross-session-message from="uds:\\.\pipe\LOCAL\cc…_  
+  ❓ La session de correction confirme que la [PR #735](https://github.com/Smart-Data-Pay-AI/smartdatapay-app/pull/735) n'a plus de conflit. Les contrôles automatiques sont toujours en cours et aucun n'a …
+
+### happy-shirley-2f3742
+- **21/10 00:02** (Claude) — _[Usage limit reached; a short grace allowance remains, then this turn is cut off without …_  
+  ❓ La session de la Messagerie a été relancée. Elle confirme que la correction du nombre d'images est en ligne depuis le 19/10 au soir, et elle n'a rien refait. Il ne reste rien à faire sur ce point.
+
+### strange-bouman-73157b
+- **20/10 19:45** (Claude) — _Another Claude session sent a message: <cross-session-message from="local_d794c338-6e4d-4…_  
+  ❓ Plus tard, pour les engagements du 15/11, on te montrera un mail à envoyer à HUP. J'y ai ajouté une ligne pour que HUP confirme cette durée d'un an. Tu n'auras qu'à relire ce mail et dire « ok ».
+
 ### EBOOK 2027
+- **20/10 15:17** (Claude) — _Chantier SmartDataPay : harmoniser les tailles de texte entre la barre latérale et le con…_  
+  ❓ Je n'ai donc rien modifié sur le site. J'ai seulement corrigé la file des chantiers, qui affichait encore « en attente de ta validation ». C'est dans une PR de documentation, pas encore fusionnée : h…
 - **20/10 00:53** (Claude) — _Dépôt DataPaie : C:\Users\roses\Downloads\Python\logiciel-paie-datapaie (base = origin/ma…_  
   ❓ La correction des travaux publics est prête et vérifiée (9 857 tests réussis), sans effet sur les bulletins déjà en production. Elle n'est pas encore en ligne : la session attend ton accord direct.
-- **16/10 10:19** (Claude) — _Chantier SmartDataPay : harmoniser les tailles de texte entre la barre latérale et le con…_  
-  ❓ **Étape 1/1** : connecte-toi à Smart Data Pay dans le navigateur intégré, puis dis-moi « ok ».
 - **16/10 10:11** (Claude) — _Projet : site internet de Rose YEMELI. Demande de Rose (13/10/2026, en vocal) : « aujourd…_  
   ❓ Elle mesurera d'abord les écarts entre la barre latérale et le contenu, page par page, sur ordinateur et sur téléphone. Elle te proposera ensuite une seule échelle de tailles, et ne changera rien ava…
-- **14/10 00:37** (Claude) — _Chantier DataPaie (logiciel de paie de Rose, dépôt C:\Users\roses\Downloads\Python\logici…_  
-  ❓ Est-ce que cette forme te va : un seul menu à trois choix au bout de la ligne existante ?
 - **12/10 02:20** (Claude) — _Chantier DataPaie (dépôt C:\Users\roses\Downloads\Python\logiciel-paie-datapaie). Lis d'a…_  
   ❓ Je n'ai pas ajouté ce blocage, et je ne l'ajouterai pas sans ton accord. Ce n'est pas un geste technique : c'est un nouveau refus que verrait l'utilisateur, et tes règles interdisent d'ajouter une co…
-- **11/10 19:43** (Claude) — _Chantier DataPaie (logiciel de paie de Rose, dépôt C:\Users\roses\Downloads\Python\logici…_  
-  ❓ Je la retire du bulletin mensuel, ou je la garde comme provision ?
 
-### formakit
-- **19/10 22:19** (Codex) — _<external_codex_apps_open_page>{"page_id":null}</external_codex_apps_open_page>_  
-  ❓ Confirmez-vous que je supprime maintenant ces **deux anciens enregistrements web uniquement**, puis que je crée les deux nouveaux pointages Vercel ?
+### Automatisation Fiona
+- **20/10 13:54** (Claude) — _oui_  
+  ❓ Elle ne servira qu'une fois la facturation et l'application mobile allumées chez HUP. Les trois relecteurs vérifieront le travail, et je te demanderai ton accord avant la mise en ligne.
+- **05/10 19:06** (Claude) — _Les phrases genre le problème est banal ça je n'aime pas ça c'est non Bon tu as bien comm…_  
+  ❓ J'ajoute les deux façons de saisir en groupe à la maquette, « par élément » et « par sélection » ?
+- **04/10 19:30** (Claude) — _Dans une... Il y a plusieurs sessions qui ont été générées. J'ai la réunion avec Fiona da…_  
+  ❓ Pour HUP, veux-tu qu'on mette en ligne tout ce qui est prêt, malgré ta décision du 09/09 ?
+
+### funny-morse-27539b
+- **20/10 08:07** (Claude) — _Another Claude session sent a message: <cross-session-message from="local_d794c338-6e4d-4…_  
+  ❓ La session qui gérait la mise en ligne groupée confirme de son côté : la production sert bien la dernière version, et la protection contre l'encadrement est vérifiée.
 
 ### j-ai-re-u-un-email
 - **19/10 22:10** (Codex) — _<external_codex_apps_open_page>{"page_id":null}</external_codex_apps_open_page>_  
@@ -50,16 +60,6 @@ _Généré automatiquement par open_loops.py le 20/10/2026 02:38 (heure de Paris
 - **16/10 23:59** (Claude) — _Stop hook feedback: Tu viens d’annoncer une action sans la faire. Fais-la maintenant, pui…_  
   ❓ Le mail est parti à Kamal, avec Zakia en copie. Il confirme que la déclaration d'accident de trajet de Justine KALINSKI a bien été faite. Tu en as une copie cachée dans ta boîte.
 
-### automationopenpaye
-- **16/10 08:31** (Claude) — _<scheduled-task name="verif-facturation-16-octobre-2026" file="C:\Users\roses\.claude\sch…_  
-  ❓ À décider par toi : lui écrire pour qu'il valide son mandat. La bannière prévue ne le touchera que s'il se reconnecte, ce qu'il n'a pas fait depuis juin selon mon dernier contrôle du 19/09 (je ne l'a…
-- **15/10 09:57** (Claude) — _<pasted_content id="1926"> Point DSN automatique - TOUS LES DOSSIERS 2026-10-08 11:00 UTC…_  
-  ❓ Ce texte te convient ?
-- **08/10 11:16** (Claude) — _<pasted_content id="f601"> PIERRE LEGAYE 09:14 (il y a 1 heure) À moi, Florian Bonjour Un…_  
-  ❓ C'est noté : on ne dépose rien et on ne répond pas à Pierre. C'est le cabinet qui suspend ces mois, parce que le client ne valide pas ses paies.
-- **05/10 16:20** (Claude) — _<pasted_content id="3adf"> Alertes regroupées des dernières minutes (une seule fois par l…_  
-  ❓ J'ai noté l'idée dans la file des chantiers, sans toucher au code. Cette forme te convient ?
-
 ### berceaux-crm
 - **15/10 22:28** (Claude) — _va regarder si on n'a pas les nouveaux mails_  
   ❓ J'envoie à ces deux la proposition pour mardi 20 octobre au matin ?
@@ -72,35 +72,29 @@ _Généré automatiquement par open_loops.py le 20/10/2026 02:38 (heure de Paris
 - **22/09 17:31** (Claude) — _j'ai besoin que tu me rédiges un courrier parce qu'on a appelé, on a un problème d'effect…_  
   ❓ **En attente de toi :** le créneau à lui proposer — jeudi 24 ou vendredi 25, 8 h ou 18 h ?
 
+### automationopenpaye
+- **15/10 09:57** (Claude) — _<pasted_content id="1926"> Point DSN automatique - TOUS LES DOSSIERS 2026-10-08 11:00 UTC…_  
+  ❓ Ce texte te convient ?
+- **08/10 11:16** (Claude) — _<pasted_content id="f601"> PIERRE LEGAYE 09:14 (il y a 1 heure) À moi, Florian Bonjour Un…_  
+  ❓ C'est noté : on ne dépose rien et on ne répond pas à Pierre. C'est le cabinet qui suspend ces mois, parce que le client ne valide pas ses paies.
+- **05/10 16:20** (Claude) — _<pasted_content id="3adf"> Alertes regroupées des dernières minutes (une seule fois par l…_  
+  ❓ J'ai noté l'idée dans la file des chantiers, sans toucher au code. Cette forme te convient ?
+
 ### dreamy-boyd-25052d
 - **13/10 21:10** (Claude) — _Objectif : remplacer le bouton « Réserver une démo » qui pointe vers **Calendly** sur le …_  
   ❓ Il y a ~11 autres démos avec transcription possible (Flexi-Paie, SOCOGERCO, CB Comptabilité, Granier, Maillot, Cartotto…). Dis-moi lesquelles tu veux — ou « toutes » — et je te les sors de la même fa…
 
+### optimistic-shaw-984236
+- **12/10 18:22** (Claude) — _déploie le train_  
+  ❓ L'autre session confirme : c'est bien elle qui a mis le lot en ligne. Les 9 261 tests étaient verts avant. La production sert la même version que celle que j'ai vérifiée, et le suivi des chantiers es…
+
 ### logiciel-paie-datapaie
-- **13/10 19:48** (Claude) — _recupere les infrmation pour la declaration taxe d'apprentissage, pas le maiement justela…_  
-  ❓ Je n'ai rien régénéré : les bulletins de juillet des Berceaux sont validés et déjà déclarés, et le projet interdit toute modification de la base de production sans ton accord. Recalculés avec la vers…
 - **12/10 10:57** (Claude) — _est ce que tu peux mettre n ligne tout ce qu'on a fait déja ?_  
   ❓ C'est lancé. Le juriste confirme d'abord la règle. Ensuite viennent la correction au centime, la propagation dans les quatre lots, les tests complets et une nouvelle vérification du testeur. L'autre …
 - **04/10 23:13** (Claude) — _<pasted_content id="0ff0"> Bonjour Rose, Bonjour Christine, Pour les salaires du mois de …_  
   ❓ Dès qu'il répond, je corrige l'assistance sur le formulaire TéléRC. Pour Yannick, je mets « non assisté », comme tu me l'as dit. Je valide ensuite le formulaire définitif à signer mercredi.
 - **02/10 01:46** (Claude) — _Il recherche ma dernière conversation sur la mise à jour du site internet je ne retrouve …_  
   ❓ **Ce montage te convient, ou tu veux des changements avant que je fasse la version courte verticale ?**
-
-### heuristic-dijkstra-0e5372
-- **13/10 19:36** (Claude) — _Another Claude session sent a message: <cross-session-message from="local_214a94f6-0c12-4…_  
-  ❓ Rien n'a changé pour la correction CSG/CRDS : elle est prête et attend toujours ton accord pour la mise en ligne, que le pilote va te demander.
-
-### berceaux-dourdan
-- **13/10 12:02** (Claude) — _<pasted_content id="6bdc"> Nouvelle demande d'inscription !  Parent Lucia Theodore Email…_  
-  ❓ J'envoie le mail à M. Piqueret tel que je te l'ai montré ?
-
-### busy-galileo-9877a3
-- **13/10 09:34** (Claude) — _déploie le train_  
-  ❓ En attente de toi : Silae se vend-elle à l'unité, et à quel prix, ou est-elle incluse dans l'abonnement ?
-
-### optimistic-shaw-984236
-- **12/10 18:22** (Claude) — _déploie le train_  
-  ❓ L'autre session confirme : c'est bien elle qui a mis le lot en ligne. Les 9 261 tests étaient verts avant. La production sert la même version que celle que j'ai vérifiée, et le suivi des chantiers es…
 
 ### serene-varahamihira-bde0c1
 - **11/10 12:26** (Claude) — _oui 1 an_  
@@ -144,31 +138,13 @@ _Généré automatiquement par open_loops.py le 20/10/2026 02:38 (heure de Paris
 - **25/09 01:59** (Claude) — _mon disque dur est plein, tu peux m'aider à faire le menage ?_  
   ❓ Dis-moi quand c'est fait — je te donnerai l'étape 2, qui est le réglage durable du fichier d'échange. Et note que sur ce point **mon conseil s'inverse** par rapport au 10 septembre : il ne faut pas l…
 
-### Automatisation Fiona
-- **05/10 19:06** (Claude) — _Les phrases genre le problème est banal ça je n'aime pas ça c'est non Bon tu as bien comm…_  
-  ❓ J'ajoute les deux façons de saisir en groupe à la maquette, « par élément » et « par sélection » ?
-- **04/10 19:30** (Claude) — _Dans une... Il y a plusieurs sessions qui ont été générées. J'ai la réunion avec Fiona da…_  
-  ❓ Pour HUP, veux-tu qu'on mette en ligne tout ce qui est prêt, malgré ta décision du 09/09 ?
-
 ### challenge-ia-ete
 - **03/10 12:30** (Claude) — _@"C:\Users\roses\Downloads\LIVE Q_R.vtt" J'ai fait un live, un live hier. Je veux que tu …_  
   ❓ **En attente de toi :** ton accord sur ce texte, ou ce que tu veux changer.
 
-### amazing-pare-d6a1e3
-- **30/09 11:48** (Claude) — _Réessayer_  
-  ❓ **Étape 1/1 pour toi :** autoriser Claude Code à écrire en production pour ce train. Tu peux ajouter une règle de permission Bash qui autorise `[CHAÎNE OPAQUE MASQUÉE].ts` et…
-
-### elegant-moore-992eec
-- **30/09 00:53** (Claude) — _Another Claude session sent a message: <agent-message from="aadd6acc9caf728e8"> Lot A (sc…_  
-  ❓ En attente de toi : ton accord pour supprimer ces 23 scripts ; je prépare alors la PR, comme pour les 15 précédents.
-
 ### nifty-williamson-e6187c
 - **30/09 00:38** (Claude) — _[Usage limit reached. Your subagents don't get this message and will keep going; what to …_  
   ❓ - **Les 6 NIR existent encore dans l'historique du dépôt.** Supprimer un fichier ne l'efface pas des anciennes versions. Leur effacement complet relève de la purge d'historique de l'incident RGPD déj…
-
-### modest-meitner-4a7418
-- **29/09 16:25** (Claude) — _ajoute #403 au train_  
-  ❓ Leur résultat n'est pas fiable. Je ne peux pas le transmettre autrement : ces sessions n'acceptent un message qu'avec ton accord.
 
 ### competent-varahamihira-a14b01
 - **29/09 10:18** (Claude) — _Another Claude session sent a message: <agent-message from="a56b469a3776c6512"> [Subagent…_  
@@ -207,6 +183,13 @@ _Généré automatiquement par open_loops.py le 20/10/2026 02:38 (heure de Paris
 
 _Heuristique : propositions de l’IA en fin de réponse sans session ultérieure du même projet qui semble les reprendre (max 5 par projet)._
 
+### logiciel-paie-datapaie
+- [ ] Prochaine étape : reprendre les taux d'impôt dans les fiches avant la paie d'octobre, puis faire valider avec toi la maquette du compte rendu. — _20/10 20:53, Claude : <scheduled-task name="lecture-retours-dsn" file="C:\Users\r…_
+
+### smartdatapay-app
+- [ ] Reste à faire : décider si on relance la chaîne autonome. Tant qu'elle est arrêtée, les synthèses restent figées. Cette routine de nuit est périmée et devrait … — _20/10 20:48, Claude : <scheduled-task name="resync-syntheses-ccn-nuit" file="C:\U…_
+- [ ] **Dès que #561 et #582 sont passées :** les 8 PR sont fusionnées, puis je vérifie que les contrôles automatiques sont verts et je refais les captures d'écran. — _02/10 14:02, Claude : Est-ce que tu peux J'ai une démonstration de même matin. Es…_
+
 ### ai
 - [ ] Je peux coordonner le socle depuis **Kazac Mobile**, avec des règles communes écrites dans le projet pour les autres développements. La prochaine étape est de … — _19/10 19:02, Codex : <external_codex_apps_open_page>{"page_id":null}</external_c…_
 
@@ -215,18 +198,6 @@ _Heuristique : propositions de l’IA en fin de réponse sans session ultérieur
 
 ### Python
 - [ ] Ce qui reste à faire : tes 16 rubriques ne passent pas d'un mode à l'autre, il faut les recréer dans le mode DeepSeek. Je ne peux le faire qu'une fois l'applic… — _18/10 16:47, Claude : Alors j'ai demandé à basculer sur sur un compte Gypsique ré…_
-
-### smartdatapay-app
-- [ ] **Dès que #561 et #582 sont passées :** les 8 PR sont fusionnées, puis je vérifie que les contrôles automatiques sont verts et je refais les captures d'écran. — _02/10 14:02, Claude : Est-ce que tu peux J'ai une démonstration de même matin. Es…_
-
-### elegant-moore-992eec
-- [ ] Je propose de supprimer 23 scripts (liste dans le classement) : 16 morts, dont les 15 MySQL, et 7 dangereux à relancer. Par exemple `v2a-restore` effacerait le… — _30/09 00:53, Claude : Another Claude session sent a message: <agent-message from=…_
-
-### eager-wozniak-7ff99c
-- [ ] **Choisir le réglage le plus étroit.** Le réglage actuel fait confiance à tous les réseaux privés. Or l'écran est lui aussi sur le réseau de Traefik (10.0.1.14… — _29/09 17:11, Claude : [Usage limit reached. Your subagents don't get this message…_
-- [ ] **Écrire les tests** : `X-Real-Ip`, chaîne forgée contenant une adresse privée, frein du portail et limite de 10 essais par adresse. Puis lancer la suite compl… — _29/09 17:11, Claude : [Usage limit reached. Your subagents don't get this message…_
-- [ ] **Obtenir un nouveau verdict sécurité écrit**, puis pousser et ouvrir la PR avec les preuves. — _29/09 17:11, Claude : [Usage limit reached. Your subagents don't get this message…_
-- [ ] **Mettre à jour** `CHANTIERS.md` et `PROJECT-HANDOFF.md`, et donner à l'autre session le numéro de la version prête. — _29/09 17:11, Claude : [Usage limit reached. Your subagents don't get this message…_
 
 ### clever-goldberg-405cc8
 - [ ] Adapter ce test unitaire, puis écrire les tests qui rejouent le défaut : aucun secret rangé en clair, deux jetons émis sans lien entre eux, un jeton de l'ancie… — _29/09 17:10, Claude : [Usage limit reached. Your subagents don't get this message…_
@@ -259,29 +230,62 @@ _Heuristique : propositions de l’IA en fin de réponse sans session ultérieur
 
 _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fetch : état local)._
 
-### logiciel-paie-datapaie (base `main`, 158 worktree(s))
-- `fix/hs-structurelles-retenue-absence` — 20/10 03:49, +14 commit(s) · worktree `gallant-feistel-ed4228` — docs(hs-structurelles): numéro de PR #571 dans la passation
-- `fix/apprenti-regime-date-execution` — 20/10 01:51, +12 commit(s) · worktree `elegant-newton-705f53` — docs(apprenti): passation, chantiers et suite du verdict testeur-qa — régime se…
-- `fix/apprenti-temps-partiel-seuil` — 20/10 01:17, +7 commit(s) · worktree `competent-wozniak-34e949` — docs(chantiers): PR #568 retenue pour le prochain train (go Rose du 20/10)
-- `fix/caisse-tp-cnetp-assiette` — 20/10 01:17, +1 commit(s) · worktree `datapaie-caisse-tp-cnetp` — fix(moteur): caisse des travaux publics (CNETP) — OPPBTP sur le brut sans coeff…
-- `docs/passation-train-566` — 20/10 01:02, +1 commit(s) · worktree `eloquent-neumann-328c82` — docs(passation): train #566 en production (a87ccecc) — réduction générale, heur…
-- `fix/rgdu-hs-structurelles-double-compte` — 20/10 00:51, +7 commit(s) — docs(rgdu): numéro de PR #566 dans la passation
-- `docs/passation-train-519` — 20/10 00:48, +1 commit(s) — docs(passation): plancher DFS temps partiel en production (train #519, 78ffce70)
-- `sauvegarde-ctp-20-10` — 20/10 00:48, +1 commit(s) — fix(moteur): caisse des travaux publics (CNETP) — OPPBTP sur le brut sans coeff…
-- `docs/passation-524` — 20/10 00:38, +1 commit(s) — docs(passation): transport saisi pour un mois en production (PR #524, main 744e…
-- `fix/transport-saisie-ponctuelle` — 20/10 00:17, +2 commit(s) — fix(transport): recollage après réapplication sur main — fixture et tests refer…
-- `fix/dfs-plancher-temps-partiel` — 19/10 23:41, +4 commit(s) — docs(dfs): numéro de PR #519 dans la passation
-- `docs/passation-train-501` — 19/10 23:21, +1 commit(s) — docs(passation): un bulletin par contrat en production (train #501 d6b48f58, 02…
-- `docs/passation-train-560` — 19/10 01:57, +1 commit(s) · worktree `datapaie-stagiaire-cet` — docs(passation): train 560 en production (e2ee9d6a promu, /api/health, pages 20…
-- `fix/stagiaire-cet-plafond-annuel` — 19/10 01:44, +7 commit(s) — docs(passation): D-90 — preuves atelier-paie (CI, cas 90, intégration, harnais)…
-- `feat/cfa-qualification-part-patronale` — 18/10 18:46, +13 commit(s) · worktree `datapaie-cfa-qualif` — test(dsn): fixture conducteur valide pour DSN-VAL (clés SIREN/SIRET, NIR sur 13…
-- … et 272 autre(s)
+### logiciel-paie-datapaie (base `main`, 156 worktree(s))
+- `claude/prevoyance-rnf-part-salarie` — 21/10 03:24, +2389 commit(s) · worktree `friendly-heisenberg-a5d15e` — docs(prevoyance): rebase sur main après #582, version 2026.10.21-2, CI directe …
+- `claude/dsn-norme-p27v01` — 21/10 03:05, +2395 commit(s) · worktree `keen-feistel-bba26b` — docs(dsn): re-verdict testeur-qa GO après correctif D1
+- `docs/passation-582` — 21/10 03:03, +2385 commit(s) · worktree `intelligent-dirac-5c4dd1` — docs(passation): #582 (type 14 prévoyance) en production
+- `prv-base` — 21/10 02:51, +2384 commit(s) — chore(moteur): version 2026.10.21-1 après le rebase sur main 8d5289b7 (#579 a p…
+- `claude/dsn-prevoyance-type14-db4169` — 21/10 02:51, +2384 commit(s) — chore(moteur): version 2026.10.21-1 après le rebase sur main 8d5289b7 (#579 a p…
+- `docs/passation-train-574` — 21/10 02:50, +2380 commit(s) · worktree `datapaie-lot8-maladie` — docs(prevoyance): train #574 en production, avec #571
+- `docs/passation-517-decision` — 21/10 02:50, +2374 commit(s) · worktree `datapaie-moteur-2027` — docs(passation): #517 — retrait des identifiants de version d'avant la réécritu…
+- `docs/passation-train-579` — 21/10 01:18, +2380 commit(s) · worktree `serene-lewin-0aa6e0` — docs(passation): train #579 en prod (7db2cebd), migration 0249, rattrapage d'oc…
+- `claude/ecarts-identite` — 20/10 23:13, +2383 commit(s) · worktree `lucid-almeida-5a87c7` — docs(identite): verdict juriste-paie final GO après recontrôle ; commentaire du…
+- `claude/crm-pas-automatique` — 20/10 22:34, +2379 commit(s) — docs(pas): PR #579 et CI directe PASS dans la passation
+- `chore/suppression-scripts-dangereux` — 20/10 15:41, +2359 commit(s) · worktree `elegant-moore-992eec` — chore(scripts): suppression des 5 scripts dangereux à relancer (accord Rose 20/…
+- `feat/prevoyance-versement` — 20/10 15:24, +2372 commit(s) — feat(prevoyance): qui reçoit les indemnités de prévoyance — salarié, employeur …
+- `fix/caisse-tp-cnetp-assiette` — 20/10 12:34, +2358 commit(s) · worktree `datapaie-caisse-tp-cnetp` — fix(moteur): caisse des travaux publics (CNETP) — OPPBTP sur le brut sans coeff…
+- `fix/assiette-dixieme-mois-sortie-v2` — 20/10 12:34, +2371 commit(s) — docs(hs-structurelles): numéro de PR #571 dans la passation
+- `fix/hs-structurelles-retenue-absence` — 20/10 03:49, +2371 commit(s) · worktree `gallant-feistel-ed4228` — docs(hs-structurelles): numéro de PR #571 dans la passation
+- … et 343 autre(s)
 
-### wt-live511-doc (base `master`, 1 worktree(s))
-- `train/live-5-11` — 20/10 03:47, +19 commit(s) · worktree `wt-live511-doc` — Accident du travail : caractères remplacés dans les formulaires officiels ; éta…
+### smartdatapay-app (base `master`, 156 worktree(s))
+- `codex/ccn-c13-background-triage-20260907` — 21/10 03:06, +34 commit(s) · worktree `smartdatapay-app` — docs(c13): record bounded git maintenance [skip actions]
+- `fix/regularisation-dsn-v4` — 21/10 02:51, +14 commit(s) · worktree `heuristic-dijkstra-0e5372` — Merge remote-tracking branch 'origin/master' into fix/regularisation-dsn-v4
+- `claude/titre-professionnel-paix-1aa81f` — 21/10 01:58, +14 commit(s) · worktree `beautiful-cohen-6786d4` — chore(ccn-c11): inventaire régénéré (numéro de ligne de la page Académie décalé)
+- `formation/dsn-simplement` — 20/10 23:24, +4 commit(s) · worktree `happy-haibt-e6bef6` — docs(formation): module DSN — contre-relecture (GO), suivi dans CHANTIERS.md et…
+- `formation/silae-videos-refaites` — 20/10 21:38, +3 commit(s) · worktree `wt-silae-videos` — chore(ccn): inventaire C12 régénéré (numéro de ligne d'un lecteur déplacé sur m…
+- `formation/silae-ecrans` — 20/10 21:02, +87 commit(s) · worktree `beautiful-bartik-6eb5cf` — fix(formation): Silae, contrôle côte à côte des 13 premières leçons : 2.3 sans …
+- `docs/typographie-chantier-clos` — 20/10 15:16, +1 commit(s) · worktree `.wt-sdp-echelle-typo-20261016` — docs(chantiers): tailles de police uniformes — en production depuis #708, rendu…
+- `docs/silae-prix-97` — 20/10 14:52, +1 commit(s) · worktree `busy-galileo-9877a3` — docs(chantiers): formation Silae — décisions de Rose du 20/10 (à l'unité, 97 €,…
+- `fix/securite-frame-ancestors` — 20/10 05:48, +5 commit(s) — Inventaires CCN régénérés après rebase ; contrôle HTTP : aucune CSP du proxy su…
+- `fix/formation-confirmation-achat` — 20/10 00:01, +1 commit(s) — Merge remote-tracking branch 'origin/master' into fix/formation-confirmation-ac…
+- `claude/bandeau-premium-hauteur` — 20/10 00:00, +2 commit(s) · worktree `nostalgic-ardinghelli-6ba398` — Merge remote-tracking branch 'origin/master' into claude/bandeau-premium-hauteur
+- `fix/lettre-veille-arret-decide` — 19/10 17:12, +2 commit(s) · worktree `wt-alertes` — chore(ccn): cartographie, matrice C11 et inventaire C12 régénérés (lignes du he…
+- `fix/alertes-memoire-deja-signale` — 19/10 14:43, +7 commit(s) — chore(ccn): inventaire C12 régénéré (lignes du health-check)
+- `formation/silae` — 19/10 01:40, +15 commit(s) · worktree `goofy-hugle-434e77` — feat(formation): Silae — outil de floutage des vidéos d'origine (OCR, zones, re…
+- `feat/hup-conventions-integrees` — 17/10 23:20, +3 commit(s) — fix(partenaires): « retour en haut » visible dans la synthèse intégrée à HUP
+- … et 88 autre(s)
+
+### openpaye-wiki-agents-inventaire-20261017 (base `main`, 1 worktree(s))
+- `codex/inventaire-interface-openpaye-20261017` — 20/10 22:48, +127 commit(s) · worktree `openpaye-wiki-agents-inventaire-20261017` — docs: publier les preuves de clôture documentaire vérifiée
+
+### berceaux-crm (base `main`, 11 worktree(s))
+- `app-mobile` — 20/10 21:37, +80 commit(s) · worktree `berceaux-crm` — docs(passation): preversion de test sur vraies donnees [skip ci]
+- `contrat-sans-notes-internes` — 20/10 14:07, +69 commit(s) · worktree `brave-jang-2b3468` — docs(chantiers): contrat d'accueil sans remarque interne, preuves
+- `claude/zealous-grothendieck-ba0868` — 20/10 14:02, +1 commit(s) — fix(contrat d'accueil): aucune remarque interne sur le document envoye aux pare…
+- `feat/bot-mail-api` — 19/10 23:09, +67 commit(s) — feat(boite mail): API assistant (lecture, brouillons, statut) et validation des…
+- `claude/dreamy-payne-469ce0` — 19/10 19:23, +2 commit(s) · worktree `charming-engelbart-2bcb85` — docs(cmg): Hanna non accueillie en septembre, entree courant octobre a confirmer
+- `claude/caf-remboursement-verification-f9a74c` — 19/10 17:55, +66 commit(s) · worktree `zealous-leavitt-add70c` — docs(passation): dates des documents en ligne (f1b6be9), preuves en production
+- `codex/planning-horaires-production-preuves` — 19/10 00:48, +67 commit(s) · worktree `crm-planning` — docs(mail): consigner l'envoi Annette valide par Rose [skip ci]
+- `codex/planning-horaires-libres` — 19/10 00:22, +62 commit(s) — fix(planning): preserver les reperes de l'ancien ecran [skip ci]
+- `codex/planning-production-preuves` — 18/10 23:57, +56 commit(s) — docs(planning): cadrer les horaires avant ouverture et apres fermeture [skip ci]
+- `codex/planning-presences-enfants` — 18/10 22:26, +52 commit(s) — fix(pdf): keep long staff names clear of their position [skip ci]
+- `codex/confirmation-depart-courtoise` — 18/10 19:32, +18 commit(s) · worktree `crm-confirmation-depart` — docs: tracer demande disponibilites entretien Marine Dubreuil EJE
 
 ### openpayesharepoint-api (base `master`, 34 worktree(s))
-- `ameliorations/facturation-lot2` — 20/10 02:18, +678 commit(s) · worktree `wt-facturation2-api` — Lot 2 : second verdict sécurité (m1) — motifs collés par trait d'union ou point…
+- `correctifs/journal-audit-conservation` — 20/10 15:59, +689 commit(s) · worktree `wt-limiteur-proxy` — Journal d'audit : vider aussi les copies d'un compte au bout d'un an
+- `ameliorations/facturation-lot3` — 20/10 13:21, +687 commit(s) · worktree `wt-facturation3-api` — Passation : facturation lot 2 en ligne le 20/10 à 13 h 05, interrupteur éteint
+- `ameliorations/facturation-lot2` — 20/10 13:21, +687 commit(s) · worktree `wt-facturation2-api` — Passation : facturation lot 2 en ligne le 20/10 à 13 h 05, interrupteur éteint
 - `ameliorations/facturation-lot1` — 19/10 18:34, +655 commit(s) · worktree `wt-facturation-api` — Passation : facturation lot 1 en ligne, éteinte (19/10, 18 h 31)
 - `ameliorations/alertes-echecs-lot` — 19/10 14:31, +628 commit(s) · worktree `wt-alertes-lot-api` — Échecs par lot : la panne porte la configuration et le mois, se clôt après 72 h…
 - `ameliorations/application-mobile` — 19/10 13:17, +627 commit(s) · worktree `wt-mobile-api` — Passation : assistant d embauche et application mobile en production, éteints (…
@@ -294,50 +298,10 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `chantier/c1-saisie-commune` — 15/10 16:38, +533 commit(s) · worktree `wt-c1-passation` — CHANTIERS : écran de saisie commun (C1) — HUP garde sa copie, inventaire et pla…
 - `ameliorations/particularites-sous-societe` — 14/10 01:19, +532 commit(s) · worktree `wt-particularites-api` — Particularités : clés étrangères en cascade, effacement réel, ajout sous verrou…
 - `ameliorations/tableau-de-bord-v2` — 07/10 23:57, +529 commit(s) · worktree `wt-tableau-api` — Masquage : l'Aide du cabinet garde celui de la production, la bulle masque au m…
-- `ameliorations/ressources` — 06/10 00:54, +525 commit(s) · worktree `wt-equipe-api` — Ressources : clé propre aux formulaires, pour ne pas allumer la production de d…
-- `chantier/reunion` — 05/10 15:22, +619 commit(s) · worktree `openpayesharepoint-api` — Merge branch 'ameliorations/ressources' into chantier/reunion
-- … et 28 autre(s)
-
-### smartdatapay-app (base `master`, 164 worktree(s))
-- `formation/silae-ecrans` — 20/10 02:18, +69 commit(s) · worktree `beautiful-bartik-6eb5cf` — feat(formation): Silae 5.1 le mois de paie, partie 2 (état d'avancement, relati…
-- `fix/securite-frame-ancestors` — 20/10 00:56, +294 commit(s) · worktree `sdp-frame-ancestors` — Inventaire C11 régénéré (anti-encadrement)
-- `train/petits-correctifs-20261019` — 20/10 00:32, +321 commit(s) · worktree `reverent-almeida-4ce37a` — ci(c12): ccn-security.yml admis au contrôle financier (deux étapes anti-encadre…
-- `claude/train-20261017-chat-syntheses` — 20/10 00:03, +312 commit(s) · worktree `wt-sdp-elenet-agent` — Merge master dans le train 698 (inventaires CCN régénérés)
-- `fix/formation-confirmation-achat` — 20/10 00:01, +293 commit(s) · worktree `sdp-formation-confirmation` — Merge remote-tracking branch 'origin/master' into fix/formation-confirmation-ac…
-- `claude/bandeau-premium-hauteur` — 20/10 00:00, +294 commit(s) · worktree `nostalgic-ardinghelli-6ba398` — Merge remote-tracking branch 'origin/master' into claude/bandeau-premium-hauteur
-- `fix/purge-cartes-documents-90j` — 19/10 21:04, +288 commit(s) — chore(ccn): cartographie et inventaires C11/C12 régénérés après fusion de master
-- `train/simulateurs-20261019` — 19/10 19:26, +267 commit(s) — chore(ccn): inventaires C11/C12 régénérés après intégration de master (#717)
-- `fix/lettre-veille-arret-decide` — 19/10 17:12, +2 commit(s) · worktree `wt-alertes` — chore(ccn): cartographie, matrice C11 et inventaire C12 régénérés (lignes du he…
-- `fix/alertes-memoire-deja-signale` — 19/10 14:43, +7 commit(s) — chore(ccn): inventaire C12 régénéré (lignes du health-check)
-- `codex/ccn-c13-background-triage-20260907` — 19/10 02:58, +23 commit(s) · worktree `smartdatapay-app` — docs(c13): record unchanged prefilter configuration block [skip actions]
-- `formation/silae` — 19/10 01:40, +15 commit(s) · worktree `goofy-hugle-434e77` — feat(formation): Silae — outil de floutage des vidéos d'origine (OCR, zones, re…
-- `feat/hup-conventions-integrees` — 17/10 23:20, +3 commit(s) · worktree `wt-sdp-conv` — fix(partenaires): « retour en haut » visible dans la synthèse intégrée à HUP
-- `claude/chaine-hebdo-format-court` — 17/10 18:12, +1 commit(s) · worktree `wt-sdp-chaine-court` — feat(ccn-chaine): la chaîne hebdomadaire écrit ses modifications au format court
-- `fix/ci-bases-test-serveur-definitif` — 17/10 17:13, +2 commit(s) · worktree `peaceful-solomon-3713d8` — docs: passation et file d'attente — bases de test C03/C05 coupées (CI VPS)
-- … et 98 autre(s)
-
-### wt-live511-app (base `master`, 1 worktree(s))
-- `train/live-5-11` — 20/10 02:17, +23 commit(s) · worktree `wt-live511-app` — Déclaration d'accident : longueurs des textes alignées sur le serveur (circonst…
-
-### openpayesharepoint-web (base `master`, 22 worktree(s))
-- `ameliorations/facturation-lot2` — 20/10 02:08, +447 commit(s) · worktree `wt-facturation2-web` — Lot 2 (écran) : test — mois en toutes lettres
-- `ameliorations/facturation-lot1` — 19/10 17:50, +437 commit(s) · worktree `wt-facturation-web` — Facturation lot 1 (écran) : un acte d'une facture émise se lit sans se corriger…
-- `correctifs/confier-hook-ordre` — 19/10 16:20, +426 commit(s) · worktree `wt-confier-hook-web` — Messagerie : le menu Confier ne fait plus tomber l'écran de lecture quand la li…
-- `correctifs/compter-images-lecture` — 19/10 16:13, +426 commit(s) — Messagerie : les images retirées d'un mail sont de nouveau comptées et signalées
-- `ameliorations/application-mobile` — 19/10 06:11, +424 commit(s) · worktree `wt-mobile-web` — Application mobile : 6e relecture sécurité — un accès retiré ne se rouvre que p…
-- `ameliorations/assistant-embauche` — 19/10 01:34, +406 commit(s) · worktree `wt-embauche-web` — Aide : « Créer dans OpenPaye » n'est cité que dans l'entrée « Nouveau salarié »…
-- `correctifs/conventions-marque-blanche` — 18/10 15:11, +393 commit(s) · worktree `wt-conv-web` — Ressources : les conventions collectives s'affichent DANS HUP, comme les simula…
-- `ameliorations/badge-smartdatapay` — 18/10 15:10, +392 commit(s) · worktree `wt-badge-web` — Badge Smart Data Pay : « Mode test » court dans le menu, sur une ligne
-- `ameliorations/messagerie-unifiee` — 16/10 20:22, +389 commit(s) · worktree `wt-boites-web` — Test après la fusion de master : la page de la messagerie unifiée lit l'interru…
-- `correctifs/rgpd-proposition-reponse` — 15/10 10:39, +375 commit(s) · worktree `wt-rgpd-web` — Audit RGPD du 15/10 : le bouton « Proposer une réponse » suit l'interrupteur du…
-- `ameliorations/particularites-sous-societe` — 14/10 01:19, +374 commit(s) · worktree `wt-particularites-web` — Particularités : une réponse arrivée après un changement de dossier est ignorée
-- `ameliorations/tableau-de-bord` — 07/10 22:55, +372 commit(s) · worktree `wt-tableau-web` — « Écrire » : le voile couvre tout l'écran, la bulle reste devant
-- `ameliorations/ressources` — 05/10 16:10, +353 commit(s) · worktree `wt-equipe-web` — Ressources : simulateurs et conventions derrière l'interrupteur « smartdatapay »
-- `chantier/reunion` — 05/10 14:04, +352 commit(s) · worktree `openpayesharepoint-web` — Ressources : les simulateurs de SmartDataPay intégrés dans HUP, retour et reche…
-- `ameliorations/documents-modeles` — 04/10 16:43, +344 commit(s) — Onglet Documents : derniers mineurs de la recette finale
-- … et 24 autre(s)
+- … et 29 autre(s)
 
 ### api (base `master`, 44 worktree(s))
+- `fix/documents-liste-par-contexte` — 20/10 13:18, +669 commit(s) · worktree `wt-documents-contexte-api` — fix(documents): documents du niveau domaine visibles de tout le cabinet, y comp…
 - `feat/application-mobile` — 20/10 00:03, +628 commit(s) · worktree `wt-mobile-api` — docs(application-mobile): relecture sécurité du 19/10 — retrait, rattachement, …
 - `feat/dat-integree` — 19/10 23:55, +620 commit(s) · worktree `wt-dat-api` — fix(accident): trace de santé manquante après le départ = ligne d'erreur complè…
 - `feat/echeances-rappels` — 19/10 23:08, +619 commit(s) · worktree `wt-ech-api` — rappels : correctifs de la relecture sécurité du 19/10 — garde console en liste…
@@ -352,8 +316,31 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `fix/assemblage-restreint-saisie` — 17/10 06:42, +585 commit(s) — Train : prettier sur deux tests C9 (modeles-droits, plusieurs-destinataires), s…
 - `feat/parametrage` — 17/10 02:45, +362 commit(s) · worktree `wt-c9-api` — C9 sécurité 17/10 : mise en forme (prettier) des fichiers du lot, sans changeme…
 - `chantier/c1-saisie-commune` — 17/10 01:02, +351 commit(s) · worktree `wt-c1-api` — C1 : mise en forme du test des heures (prettier)
-- `hotfix/coffre-invitations-2` — 16/10 17:06, +312 commit(s) · worktree `wt-hotfix-coffre-2` — fix(coffre): l'activation par pending_vault_id pose une permission « owner » du…
-- … et 34 autre(s)
+- … et 35 autre(s)
+
+### openpayesharepoint-web (base `master`, 23 worktree(s))
+- `ameliorations/facturation-lot3` — 20/10 12:41, +449 commit(s) · worktree `wt-facturation3-web` — Lot 2 (écran) : test de la fiche — le libellé du signal vient du serveur
+- `ameliorations/facturation-lot2` — 20/10 12:41, +449 commit(s) · worktree `wt-facturation2-web` — Lot 2 (écran) : test de la fiche — le libellé du signal vient du serveur
+- `ameliorations/facturation-lot1` — 19/10 17:50, +437 commit(s) · worktree `wt-facturation-web` — Facturation lot 1 (écran) : un acte d'une facture émise se lit sans se corriger…
+- `correctifs/confier-hook-ordre` — 19/10 16:20, +426 commit(s) · worktree `wt-confier-hook-web` — Messagerie : le menu Confier ne fait plus tomber l'écran de lecture quand la li…
+- `correctifs/compter-images-lecture` — 19/10 16:13, +426 commit(s) — Messagerie : les images retirées d'un mail sont de nouveau comptées et signalées
+- `ameliorations/application-mobile` — 19/10 06:11, +424 commit(s) · worktree `wt-mobile-web` — Application mobile : 6e relecture sécurité — un accès retiré ne se rouvre que p…
+- `ameliorations/assistant-embauche` — 19/10 01:34, +406 commit(s) · worktree `wt-embauche-web` — Aide : « Créer dans OpenPaye » n'est cité que dans l'entrée « Nouveau salarié »…
+- `correctifs/conventions-marque-blanche` — 18/10 15:11, +393 commit(s) · worktree `wt-conv-web` — Ressources : les conventions collectives s'affichent DANS HUP, comme les simula…
+- `ameliorations/badge-smartdatapay` — 18/10 15:10, +392 commit(s) · worktree `wt-badge-web` — Badge Smart Data Pay : « Mode test » court dans le menu, sur une ligne
+- `ameliorations/messagerie-unifiee` — 16/10 20:22, +389 commit(s) · worktree `wt-boites-web` — Test après la fusion de master : la page de la messagerie unifiée lit l'interru…
+- `correctifs/rgpd-proposition-reponse` — 15/10 10:39, +375 commit(s) · worktree `wt-rgpd-web` — Audit RGPD du 15/10 : le bouton « Proposer une réponse » suit l'interrupteur du…
+- `ameliorations/particularites-sous-societe` — 14/10 01:19, +374 commit(s) · worktree `wt-particularites-web` — Particularités : une réponse arrivée après un changement de dossier est ignorée
+- `ameliorations/tableau-de-bord` — 07/10 22:55, +372 commit(s) · worktree `wt-tableau-web` — « Écrire » : le voile couvre tout l'écran, la bulle reste devant
+- `ameliorations/ressources` — 05/10 16:10, +353 commit(s) · worktree `wt-equipe-web` — Ressources : simulateurs et conventions derrière l'interrupteur « smartdatapay »
+- `chantier/reunion` — 05/10 14:04, +352 commit(s) · worktree `openpayesharepoint-web` — Ressources : les simulateurs de SmartDataPay intégrés dans HUP, retour et reche…
+- … et 25 autre(s)
+
+### wt-live511-doc (base `master`, 1 worktree(s))
+- `train/live-5-11` — 20/10 03:47, +19 commit(s) · worktree `wt-live511-doc` — Accident du travail : caractères remplacés dans les formulaires officiels ; éta…
+
+### wt-live511-app (base `master`, 1 worktree(s))
+- `train/live-5-11` — 20/10 02:17, +23 commit(s) · worktree `wt-live511-app` — Déclaration d'accident : longueurs des textes alignées sur le serveur (circonst…
 
 ### documentation (base `master`, 17 worktree(s))
 - `feat/dat-integree` — 19/10 23:57, +122 commit(s) · worktree `wt-dat-doc` — DAT : journal — destinataire masqué pour la titulaire, domaine seul pour les ad…
@@ -381,20 +368,6 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `chantier/ia-europe-vertex` — 25/09 23:40, +3 commit(s) — fix(ia-europe): verdicts QA et sécurité de #34 — délai du jeton, panne annoncée…
 - `design/intelligente-dore` — 25/09 22:57, +1 commit(s) — design(accueil): « intelligente » en orangé doré dans le titre
 - `codex/seo-suivi-2026-09-21` — 21/09 12:50, +2 commit(s) — docs(seo): consigner l activation analytics
-
-### berceaux-crm (base `main`, 11 worktree(s))
-- `feat/bot-mail-api` — 19/10 23:09, +67 commit(s) — feat(boite mail): API assistant (lecture, brouillons, statut) et validation des…
-- `claude/dreamy-payne-469ce0` — 19/10 19:23, +2 commit(s) · worktree `charming-engelbart-2bcb85` — docs(cmg): Hanna non accueillie en septembre, entree courant octobre a confirmer
-- `claude/caf-remboursement-verification-f9a74c` — 19/10 17:55, +66 commit(s) · worktree `zealous-leavitt-add70c` — docs(passation): dates des documents en ligne (f1b6be9), preuves en production
-- `codex/planning-horaires-production-preuves` — 19/10 00:48, +67 commit(s) · worktree `crm-planning` — docs(mail): consigner l'envoi Annette valide par Rose [skip ci]
-- `codex/planning-horaires-libres` — 19/10 00:22, +62 commit(s) — fix(planning): preserver les reperes de l'ancien ecran [skip ci]
-- `codex/planning-production-preuves` — 18/10 23:57, +56 commit(s) — docs(planning): cadrer les horaires avant ouverture et apres fermeture [skip ci]
-- `codex/planning-presences-enfants` — 18/10 22:26, +52 commit(s) — fix(pdf): keep long staff names clear of their position [skip ci]
-- `codex/confirmation-depart-courtoise` — 18/10 19:32, +18 commit(s) · worktree `crm-confirmation-depart` — docs: tracer demande disponibilites entretien Marine Dubreuil EJE
-- `app-mobile` — 17/10 23:15, +3 commit(s) · worktree `berceaux-crm` — feat(app mobile): accueils acceptes reportes sur la facture du mois
-
-### openpaye-wiki-agents-inventaire-20261017 (base `main`, 1 worktree(s))
-- `codex/inventaire-interface-openpaye-20261017` — 19/10 23:08, +116 commit(s) · worktree `openpaye-wiki-agents-inventaire-20261017` — Consigner les preuves exactes du lot temps de travail
 
 ### app (base `master`, 28 worktree(s))
 - `feat/dat-integree` — 19/10 23:07, +272 commit(s) · worktree `wt-dat-app` — fix(accident): signature en ligne éteinte = pas de « Faire signer » (test) ; no…
@@ -496,7 +469,7 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `codex/ccn-libelles-restauration` — 01/10 12:23, +195 commit(s) — Passation : intitulés restauration et congés-maladie en ligne (28d9c53), veille…
 - `codex/ccn-fiabilisation-integration` — 01/10 09:32, +191 commit(s) — Passation : campagne qualité en ligne (52a85dd), veille VPS à jour
 - `codex/ccn-weekly-adverse-20260923` — 24/09 14:07, +68 commit(s) — docs(ccn): qualifier dix candidats conges 1875 a 1970
-- … et 6 autre(s)
+- … et 5 autre(s)
 
 ### smart-data-pay-site (base `main`, 2 worktree(s))
 - `chantier/academie-catalogue` — 05/10 19:13, +4 commit(s) — feat(seo): relayer toutes les pages de l'Académie
