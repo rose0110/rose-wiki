@@ -1,0 +1,7 @@
+interface:
+  display_name: "Gérer l’inbox LinkedIn de Rose"
+  short_description: "Trie et répond aux nouveaux messages LinkedIn"
+  default_prompt: "Utilise $gerer-inbox-linkedin-rose pour traiter uniquement mes nouveaux messages LinkedIn."
+
+policy:
+  allow_implicit_invocation: true

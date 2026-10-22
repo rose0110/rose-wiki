@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA en Europe — récap du chantier</title>
+<style>
+  :root { --ink:#1f2937; --muted:#6b7280; --ok:#166534; --okbg:#dcfce7; --warn:#92400e; --warnbg:#fef3c7; --ko:#991b1b; --kobg:#fee2e2; --line:#e5e7eb; --code:#f3f4f6; }
+  body { margin:0; padding:24px; max-width:1100px; margin-inline:auto; font:14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color:var(--ink); background:#fff; }
+  h1 { font-size:22px; margin:0 0 4px; } h2 { font-size:17px; margin:28px 0 8px; border-bottom:1px solid var(--line); padding-bottom:4px; } h3 { font-size:15px; margin:18px 0 6px; }
+  .sub { color:var(--muted); margin-bottom:16px; }
+  .tag { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; font-weight:600; margin-right:6px; }
+  .mesure { background:var(--okbg); color:var(--ok); } .deduit { background:var(--warnbg); color:var(--warn); } .nonverif { background:var(--kobg); color:var(--ko); }
+  table { border-collapse:collapse; width:100%; margin:8px 0 12px; font-size:13px; } th, td { border:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; } th { background:#f9fafb; }
+  pre { background:var(--code); padding:10px; border-radius:6px; overflow:auto; font-size:12px; }
+  code { background:var(--code); padding:1px 4px; border-radius:4px; font-size:12px; }
+  .legend { display:flex; gap:12px; flex-wrap:wrap; margin:8px 0 16px; }
+  ul { margin:6px 0 10px 20px; } li { margin:2px 0; }
+  .box { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin:10px 0; }
+</style>
+</head>
+<body>
+<h1>Chantier « IA en Europe » — récapitulatif</h1>
+<div class="sub">smartdatapay-app · branche <code>chantier/ia-en-europe</code> depuis <code>origin/master 9d1e493ae</code> · PR #376 · 11 septembre 2026 · Fable 5.1</div>
+<div class="legend">
+  <span class="tag mesure">mesuré</span> observé par un outil, sortie brute conservée
+  <span class="tag deduit">déduit</span> lu dans le code ou la documentation, non exécuté
+  <span class="tag nonverif">non vérifié</span> pas encore prouvé — dépend d'un geste de Rose ou de la mise en ligne
+</div>
+
+<h2>1. La cible et où elle en est</h2>
+<table>
+<tr><th>Cible du prompt</th><th>État</th><th>Statut</th></tr>
+<tr><td>1. Un seul point de sortie (<code>src/library/ai/gateway.js</code>), terminaux UE seulement ; un import direct de fournisseur ne passe pas la CI</td><td>Fait : passerelle + 3 suites de tests + workflow <code>ia-europe.yml</code> (vert sur la PR #376). Frontière statique 7/7, passerelle 12/12, garde réseau 5/5.</td><td><span class="tag mesure">mesuré</span></td></tr>
+<tr><td>2. Preuve en production : chaque hôte contacté est européen, mesuré</td><td>Projet Google Cloud créé le 11/09, variables posées dans Vercel, <b>6 capacités vérifiées en 200 sur europe-west1 avec la vraie clé</b> (§ 4.4). Reste la mise en ligne et la lecture des journaux de production (§ 4.5).</td><td><span class="tag mesure">mesuré avec la clé</span> <span class="tag nonverif">prod à faire</span></td></tr>
+<tr><td>3. Pages légales vraies, modifiées seulement après la preuve</td><td>Brouillons v2 prêts, relus par <code>juriste-paie</code> (7 corrections appliquées, 2 arbitrages de Rose). Pages non modifiées, conformément à la règle.</td><td><span class="tag deduit">brouillon</span></td></tr>
+<tr><td>4. La phrase d'Andy</td><td>« Vos données sont hébergées en France, et l'IA qui les lit tourne en Europe. » Défendable sous réserve de la preuve prod (verdict juriste).</td><td><span class="tag nonverif">après preuve prod</span></td></tr>
+</table>
+
+<h2>2. Référence AVANT tout changement — production, 11/09/2026 <span class="tag mesure">mesuré</span></h2>
+<p>Sonde versionnée <code>scripts/ia-europe/sonde-routes-ia.mjs</code>, compte <code>e2e-tests@smartdatapay.app</code>, données synthétiques. Fichier brut : <code>sonde-avant-2026-09-11.json</code>. Hôtes contactés : déduits du code (aucune trace d'hôte n'existait avant la passerelle).</p>
+<table>
+<tr><th>Route</th><th>Statut</th><th>Durée</th><th>Fournisseur / hôte <span class="tag deduit">déduit</span></th><th>Lecture</th></tr>
+<tr><td><code>POST /api/text-to-speech</code></td><td>500</td><td>9,7 s</td><td>OpenAI <code>gpt-4o-mini-tts</code> — api.openai.com (US)</td><td>clé OpenAI morte : la fonction ne marchait pas</td></tr>
+<tr><td><code>POST /api/generate-resume</code></td><td>500</td><td>8,8 s</td><td>OpenAI <code>gpt-4.1</code> — api.openai.com (US)</td><td>idem</td></tr>
+<tr><td><code>POST /api/chat</code></td><td>200</td><td>9,3 s</td><td>Gemini 2.5 Pro — generativelanguage.googleapis.com (global)</td><td>réponse correcte (35 h)</td></tr>
+<tr><td><code>POST /api/agent/events</code></td><td>200</td><td>1,9 s</td><td>Gemini 2.5 Flash direct ; Claude via api.anthropic.com si demandé</td><td>réponse correcte (2,5 j/mois)</td></tr>
+<tr><td><code>POST /api/agent/events</code> (recherche documents)</td><td>200</td><td>3,3 s</td><td>embeddings Gemini direct</td><td>« aucun projet actif » : comportement produit</td></tr>
+<tr><td><code>POST /api/controles/executer</code></td><td>422</td><td>1,8 s</td><td>Claude direct (clé morte depuis le 09/08) puis Gemini</td><td>« Impossible d'extraire les données » : le contrôle de paie ne marchait pas</td></tr>
+<tr><td><code>POST /api/conges-report/calculer</code></td><td>200</td><td>38 s</td><td>Gemini 2.5 Flash — generativelanguage (global)</td><td>JSON correct</td></tr>
+</table>
+<p>Variables de production (noms) vues le 11/09 : <code>ANTHROPIC_API_KEY, GOOGLE_API_KEY, GOOGLE_GENERATIVE_AI_API_KEY, OPENAI_API_KEY, PERPLEXITY_API_KEY</code> — aucune <code>GOOGLE_VERTEX_*</code> <span class="tag mesure">mesuré</span>. Rejouer : <code>SDP_SONDE_STORAGE_STATE=&lt;storageState&gt; npm run sonde:ia-europe</code>.</p>
+
+<h2>3. Ce qui a été construit <span class="tag deduit">déduit du code</span></h2>
+<ul>
+<li><b>Passerelle</b> <code>src/library/ai/gateway.js</code> + <code>gateway-config.js</code> (sans import de fournisseur, lisible par le health-check). Région <code>europe-west1</code>, hôte <code>europe-west1-aiplatform.googleapis.com</code>. Modèles : <code>gemini-2.5-flash</code>, <code>gemini-2.5-pro</code>, <code>claude-sonnet-4-5@20250929</code> (Claude sur Vertex), <code>gemini-embedding-001</code> (768 : même modèle et même dimension qu'avant → aucune ré-indexation), <code>gemini-2.5-flash-tts</code> (REST, PCM → WAV), Web Grounding for Enterprise (recherche web dans la requête Vertex).</li>
+<li><b>Jamais de repli</b> : sans variables Vertex, <code>AiGatewayNotConfiguredError</code> (503 utilisateur : « Aucune donnée n'a été transmise ») + alerte Telegram en production. Région non <code>europe-*</code> refusée à la lecture de la configuration. Transport fail-closed : tout hôte hors <code>europe-*-aiplatform.googleapis.com</code> est refusé avant émission.</li>
+<li><b>Trace sans donnée personnelle</b> : <code>[ai-gateway] {"gw":"vertex-eu","host":…,"model":…,"op":…,"status":…,"ms":…}</code> — c'est elle qui prouvera l'hôte en production (journaux Vercel).</li>
+<li><b>Routes converties</b> : chat, Agent Paie (Gemini et Claude), contrôle de paie (Gemini primaire + Claude vérificateur), report de congés, résumé (ex OpenAI), synthèse vocale (ex OpenAI), agenda, RAG, outils légaux (BOSS + documents de projet), résumé de conversation, audit simulateur, recherche web (ex Tavily, US). Supprimés : <code>hooks/use-server.js</code>, <code>hooks/useUpdateNews.js</code>, <code>library/ai.js</code> (aucun importeur, vérifié par grep). Consensus C05 : Gemini via passerelle, transport DeepSeek déplacé dans <code>scripts/ccn/c05/deepseek-transport.mjs</code> (scripts batch, textes CCN publics).</li>
+<li><b>Plafonds de dépense</b> : inchangés, <code>withAiMeter</code> enveloppe toujours les appels.</li>
+<li><b>Health-check quotidien</b> : nouveau contrôle « Passerelle IA européenne » (crit si variables absentes ou région non UE).</li>
+</ul>
+
+<h2>4. Le juge — sortie brute (local, worktree, 11/09) <span class="tag mesure">mesuré</span></h2>
+<h3>4.1 <code>node --test tests/ia-europe/*.test.js tests/ia-europe/*.test.mjs</code></h3>
+<pre>ok 1 - le corpus analyse est non vide et contient la passerelle
+ok 2 - aucun fichier de src/ hors la passerelle n importe un fournisseur d IA
+ok 3 - aucun fichier de src/ ne contient un hote de fournisseur d IA (passerelle comprise)
+ok 4 - la passerelle n importe que Vertex (Google + Anthropic sur Vertex) et l authentification Google
+ok 5 - la passerelle ne connait aucun hote global ni multi-region : seulement europe-*
+ok 6 - la passerelle est le seul fichier a construire un fournisseur (createVertex*)
+ok 7 - les anciens points de sortie directs ont disparu
+ok 8 - la passerelle exercee ne contacte que le terminal Vertex europeen, pour chaque capacite
+ok 9 - la passerelle en region Paris (europe-west9) reste europeenne
+ok 10 - une sonde adverse qui contourne la passerelle est refusee avant emission, sur chaque chemin
+ok 11 - le prechargeur couvre tous les transports Node avant emission
+ok 12 - un hote europeen est autorise et journalise comme tel
+ok 13 - en production, sans variables Vertex : refus explicite, jamais de repli (meme avec les cles US)
+ok 14 - en local aussi : sans Vertex, refus (pas de terminal americain « pour que ca marche »)
+ok 15 - configuration incomplete = absente ; region hors UE = interdite
+ok 16 - la cle privee est deserialisee (\n echappes) et jamais exposee dans la config publique
+ok 17 - hotes : seuls europe-*-aiplatform.googleapis.com sont europeens
+ok 18 - chaque terminal construit (Gemini texte, Claude, embeddings) vise un hote europeen
+ok 19 - la region est surchargeable mais reste europeenne (europe-west9 = Paris)
+ok 20 - fail-closed : un SDK qui viserait un hote hors Europe est refuse AVANT emission
+ok 21 - la trace ne contient ni prompt, ni corps, ni jeton : seulement hote, modele, operation, statut, duree
+ok 22 - le jeton de test AI_GATEWAY_TEST_ACCESS_TOKEN est honore en local seulement, IGNORE sur Vercel et en production
+ok 23 - l express mode du SDK (GOOGLE_VERTEX_API_KEY) est neutralise : toujours le terminal regional europeen
+ok 24 - utilitaires : description d URL et encapsulation WAV
+# tests 24  # pass 24  # fail 0</pre>
+<p>CI GitHub sur la PR #376 : workflow <b>« IA en Europe — frontière et garde réseau »</b> : 2 jobs verts (frontière + garde réseau). Build Vercel Preview (Turbopack) : <b>réussi</b> (déploiement <code>dpl_8NLyS2e8RnWNjngN1mKrX47o84BG</code>, Preview inutilisable pour l'IA tant que les variables Vertex n'existent pas, et le contrôle de paie y est bloqué par C12). Autres workflows rouges sur la PR, avec l'étape en échec : Alertes (<code>npm run test:alertes</code>, tests 24/89), CCN security (« Reject versioned secrets », « Validate the sealed C02 catalogue », <code>test:ccn-security</code> : 2 échecs dont l'import <code>@/library</code> et un simulateur d'alternance non touché), C07/C08 (<code>check:ccn-secrets</code>), C09/C11/C12 (<code>preflight:ccn-*</code> comparés à un SHA figé), C04/C06 (<code>test:ccn-security</code>) — tous listés comme rouges permanents dans le prompt ou reproduits à l'identique sur la branche <code>feat/rdv-notifications-simplifiees</code> (Alertes, CCN security) et sur master (CCN security <code>d1eb56039</code>).</p>
+<p>La garde réseau (tests 8 à 12) <b>mesure</b> : un processus enfant préchargé par <code>tests/ia-europe/garde-reseau-preload.cjs</code> intercepte DNS, TCP, TLS, HTTP/1, HTTP/2, fetch/undici avant émission et journalise chaque cible. Sonde adverse <code>probes/contournement.mjs</code> : fetch OpenAI/Anthropic, SDK Google direct, SDK Anthropic direct, Vertex <code>us-central1</code>, Vertex <code>global</code>, passerelle forcée hors UE, socket brut → 8/8 refusés avant émission (hôtes refusés journalisés : aiplatform.googleapis.com, api.anthropic.com, api.openai.com, api.perplexity.ai, generativelanguage.googleapis.com, us-central1-aiplatform.googleapis.com).</p>
+<h3>4.2 Non-régression : <code>npm run test:ccn-c09 && npm run test:ai-budget && npm run test:controles</code></h3>
+<pre>ai-budget   : # tests 30  # pass 30  # fail 0
+controles   : # tests 5   # pass 5   # fail 0
+ccn-c09     : # tests 126 # pass 124 # fail 2
+  not ok 4  - tests/ccn-c09/consumer-contracts.test.js   (ERR_MODULE_NOT_FOUND '@/library' depuis src/app/(views)/…/calendrier-de-procedure/_motifs/personnel.js)
+  not ok 17 - tests/ccn-c09/runtime-integrations.test.js (même cause, …/_shared/dateUtils.js)
+alertes     : # tests 166 # pass 164 # fail 2  (tests 24 et 89 : rouges permanents de master listés dans le prompt)
+ccn-c05     : # tests 191 # pass 189 # fail 0 ; ccn-c06 runner : 3/3</pre>
+<p>Preuve que les deux rouges C09 ne sont pas aggravés : <code>git diff --name-only origin/master -- "src/app/(views)" tests/ccn-c09</code> → vide <span class="tag mesure">mesuré</span>. Scanner de secrets (<code>node scripts/check-ccn-secrets.mjs</code>) : aucun fichier de ce chantier dans les 16 signalements (tous préexistants).</p>
+<h3>4.3 Garde réseau de bout en bout — vraies routes, serveur local sous préchargeur <span class="tag mesure">mesuré</span></h3>
+<p><code>SDP_GARDE_MODE=dev SDP_SONDE_STORAGE_STATE=… node scripts/ia-europe/garde-reseau-serveur.mjs 3012</code> : configuration Vertex de test + jeton de test (<code>AI_GATEWAY_TEST_ACCESS_TOKEN</code>, ignoré en production — test 22), session du compte e2e. Résultat final sur le code corrigé (<code>garde-reseau-serveur-2026-09-11-13-42-08.json</code>) :</p>
+<pre>verdict : "OK : seules des cibles europeennes pour l IA, aucun refus"
+hotesIA : ["europe-west1-aiplatform.googleapis.com"]
+hotes contactes (tous) : europe-west1-aiplatform.googleapis.com, ffxdhdpvphmmpgzqzbqs.supabase.co (session/base), o4507112543813632.ingest.de.sentry.io (rapport d'erreurs, DE), registry.npmjs.org (Next dev)
+traces : [ai-gateway] {"gw":"vertex-eu","host":"europe-west1-aiplatform.googleapis.com","model":"gemini-2.5-flash-tts","op":"generateContent","status":401,"ms":178}
+         [ai-gateway] {"gw":"vertex-eu","host":"europe-west1-aiplatform.googleapis.com","model":"gemini-2.5-flash","op":"generateContent","status":401,"ms":84}
+         [ai-gateway] {"gw":"vertex-eu","host":"europe-west1-aiplatform.googleapis.com","model":"gemini-2.5-flash","op":"streamGenerateContent","status":401,"ms":108}
+         [ai-gateway] {"gw":"vertex-eu","host":"europe-west1-aiplatform.googleapis.com","model":"claude-sonnet-4-5@20250929","op":"streamRawPredict","status":401,"ms":63}
+         [ai-gateway] {"gw":"vertex-eu","host":"europe-west1-aiplatform.googleapis.com","model":"gemini-2.5-flash","op":"generateContent","status":401,"ms":36}  (×2)
+routes  : text-to-speech 502 · generate-resume 500 · chat 500 · agent-session 200 · agent-events 200 (Gemini) · agent-events-claude 200 (Claude via Vertex) · controles-executer 422 · conges-report 500
+          (401 côté Google = jeton de test : c'est la CIBLE qui est mesurée, pas la réponse)</pre>
+<p>Premier passage (fichier supprimé) : 64 refus, tous vers Sentry (rapport d'erreurs) et registry.npmjs.org — aucune IA ; ces deux hôtes hors IA ont été ajoutés à la liste blanche du script avec leur motif.</p>
+<h3>4.4 Projet Google Cloud et vérification réelle avec la clé <span class="tag mesure">mesuré</span></h3>
+<p>Le 11/09 (16h–18h, Rose aux clics dans le navigateur intégré, moi au préremplissage) : projet <code>smartdatapay-ia-europe</code> (numéro 216613504614) créé sur le compte de facturation existant « ROSE YEMELI » (direct, 91 € sur 30 jours, déjà 4 projets facturés) ; API Vertex activée ; Claude Sonnet 4.5 activé dans le Model Garden (questionnaire Anthropic rempli : SMART DATA PAY, RH, utilisateurs externes, « Yes » à la politique d'usage avec description) ; compte de service <code>smartdatapay-vercel</code> avec le seul rôle « Utilisateur Agent Platform » (= <code>roles/aiplatform.user</code>) ; clé JSON téléchargée par Rose, posée par <code>scripts/ia-europe/poser-variables-vertex.mjs</code> dans Vercel <code>smartdatapay-ai</code> (4 variables, Production + Preview, type <code>encrypted</code>), puis supprimée du disque.</p>
+<pre>node scripts/ia-europe/verifier-acces-vertex.mjs &lt;cle.json&gt;   →  verification-acces-vertex-2026-09-11.json
+gemini      ok  europe-west1-aiplatform.googleapis.com  gemini-2.5-flash            generateContent  200
+gemini-pro  ok  europe-west1-aiplatform.googleapis.com  gemini-2.5-pro              generateContent  200
+claude      ok  europe-west1-aiplatform.googleapis.com  claude-sonnet-4-5@20250929  rawPredict       200
+embedding   ok  (768 dimensions)                        gemini-embedding-001        predict          200
+speech      ok  (WAV 133 050 octets)                    gemini-2.5-flash-tts        generateContent  200
+recherche   ok  (Web Grounding for Enterprise)          gemini-2.5-flash            generateContent  200
+(premier essai : 6 × 403 pendant ~1 min = propagation du rôle IAM, puis 200)</pre>
+<p>Leçon mesurée au passage : l'API Vercel ne déchiffre pas les variables <code>encrypted</code> (elle renvoie un blob) — la passerelle a refusé la région (fail-closed prouvé en vrai) ; pour un serveur local avec les vraies valeurs, passer par <code>vercel env pull</code> puis supprimer le fichier (<code>scripts/ia-europe/serveur-local-vertex.mjs</code>).</p>
+<h3>4.4 bis Routes réelles en local avec les vraies variables <span class="tag mesure">mesuré</span></h3>
+<p><code>scripts/ia-europe/serveur-local-vertex.mjs</code> (variables tirées par <code>vercel env pull</code>, fichier supprimé après) — fichiers <code>sonde-local-vertex-2026-09-11-17-06-50.json</code> et <code>traces-local-vertex-…json</code> :</p>
+<table>
+<tr><th>Route</th><th>Avant (prod, 11/09 14h)</th><th>Après (local, vraie clé, 17h)</th><th>Hôte IA mesuré</th></tr>
+<tr><td>Synthèse vocale</td><td>500</td><td><b>200</b>, WAV 200 Ko (Gemini 2.5 Flash TTS)</td><td>europe-west1</td></tr>
+<tr><td>Résumé</td><td>500</td><td><b>200</b>, résumé correct (Gemini 2.5 Flash)</td><td>europe-west1</td></tr>
+<tr><td>Agent Paie (Gemini)</td><td>200</td><td><b>200</b>, réponse correcte (2,5 j/mois), raisonnement + outils</td><td>europe-west1</td></tr>
+<tr><td>Agent Paie, recherche dans les documents</td><td>200 (sans projet)</td><td><b>200</b>, outil appelé (embeddings)</td><td>europe-west1</td></tr>
+<tr><td>Report de congés</td><td>200 (30 j)</td><td><b>200</b>, même résultat (30 j, cas 1, limite 10/10/2026)</td><td>europe-west1</td></tr>
+<tr><td>Chat</td><td>200</td><td>500 <code>PAYROLL_REFERENCE_UNAVAILABLE</code> — la clé publique du référentiel signé est « sensitive » dans Vercel, non récupérable en local : la route échoue AVANT tout appel IA. <span class="tag nonverif">à prouver en prod</span></td><td>—</td></tr>
+<tr><td>Contrôle de paie</td><td>422</td><td>500, même cause (référentiel signé indisponible en local). <span class="tag nonverif">à prouver en prod</span></td><td>—</td></tr>
+</table>
+<p><b>Défaut préexistant trouvé et corrigé au passage</b> : les 26 outils de l'Agent Paie déclaraient leur schéma avec l'ancienne clé <code>parameters</code> du SDK, ignorée depuis la version 6 : les outils partaient <b>sans schéma</b>. L'API Gemini directe l'acceptait ; Vertex répond 400 « functionDeclaration parameters schema should be of type OBJECT » (diagnostic <code>scripts/ia-europe/diagnostic-outil-vertex.mjs</code> : le schéma complet passe, c'est l'absence de schéma qui est refusée). Corrigé (<code>inputSchema</code>) : l'Agent Paie fonctionne via Vertex et ses outils reçoivent enfin des arguments validés.</p>
+<h3>4.4 ter Capacités que le verdict QA disait non prouvées — mesurées avec la vraie clé <span class="tag mesure">mesuré</span></h3>
+<p><code>scripts/ia-europe/verifier-capacites-avancees.mjs</code> (variables par <code>vercel env pull</code>, fichier supprimé après) — <code>verification-capacites-avancees-2026-09-11.json</code>, 4/4 en 200 sur <code>europe-west1-aiplatform.googleapis.com</code> :</p>
+<table>
+<tr><th>Capacité</th><th>Ce que le QA craignait</th><th>Mesuré</th></tr>
+<tr><td><code>embedMany</code> à 50 valeurs (lot d'indexation des documents de l'Agent Paie)</td><td>400 : une seule instance par appel <code>predict</code> → plus aucun document indexé</td><td><b>200</b>, 50 vecteurs de 768 dimensions en un seul appel, 2,8 s</td></tr>
+<tr><td>Recherche web ancrée</td><td><code>sources</code> vide → le chat ne citerait plus rien</td><td><b>7 sources</b> (URL de redirection <code>vertexaisearch.cloud.google.com</code>, forme normale du grounding Vertex)</td></tr>
+<tr><td>Claude Sonnet 4.5 avec outil + thinking</td><td>jamais exécuté avec une vraie clé</td><td><b>200</b>, appel de <code>calculBrutNet</code> avec <code>{ brut: 2800 }</code> typé nombre</td></tr>
+<tr><td>Gemini 2.5 Pro avec outil</td><td>jamais exécuté avec une vraie clé</td><td><b>200</b>, même appel, même typage</td></tr>
+</table>
+<p>Correction du chiffre annoncé plus haut : ce sont <b>31</b> outils (pas 26) qui sont passés de <code>parameters</code> à <code>inputSchema</code> (compte de l'expert paie, vérifié : 31 occurrences).</p>
+<h3>4.5 Preuve en production — 11/09, ~20h <span class="tag mesure">mesuré</span></h3>
+<p>Go de Rose → PR #376 fusionnée → master <code>8fe0f570a</code> → <code>mettre-en-ligne-master.mjs</code> (build sans domaine, preuve, promotion, re-preuve). Production servie : <code>/api/version</code> = <code>8fe0f570a</code>, origine ligne de commande.</p>
+<table>
+<tr><th>Route (www.smartdatapay.app, compte de test)</th><th>Avant (11/09 14h)</th><th>Après (11/09 20h)</th></tr>
+<tr><td>Synthèse vocale</td><td>500</td><td><b>200</b>, WAV 217 Ko</td></tr>
+<tr><td>Résumé</td><td>500</td><td><b>200</b></td></tr>
+<tr><td>Chat</td><td>200</td><td><b>200</b>, texte produit (Gemini 2.5 Pro)</td></tr>
+<tr><td>Agent Paie</td><td>200</td><td><b>200</b>, outils appelés avec arguments typés</td></tr>
+<tr><td>Agent Paie, recherche documents</td><td>200</td><td><b>200</b></td></tr>
+<tr><td>Contrôle de paie</td><td>422</td><td><b>200</b>, bulletin lu (brut 2 000, 151,67 h)</td></tr>
+<tr><td>Report de congés</td><td>200 (30 j)</td><td><b>200</b>, même résultat</td></tr>
+</table>
+<p><b>Journaux Vercel</b> (<code>vercel logs --json</code>, pendant les sondes) : 28 traces <code>[ai-gateway]</code> sur le candidat, 28 sur www — <b>100 % <code>europe-west1-aiplatform.googleapis.com</code>, 0 refus</b> (fichiers <code>traces-prod-directe-2026-09-11.json</code>, <code>traces-prod-www-2026-09-11.json</code>).</p>
+<p><b>Plan post-déploiement</b> (<code>sonde-post-deploiement-2026-09-11.json</code>) : outil de calcul appelé avec <code>{ brut: 2800 }</code> ✅ ; refus d'un maintien conventionnel sans IDCC en une phrase, sans code technique ✅ ; recherche web avec 8 sources ✅ ; <b>mode Claude explicite ❌</b> (Anthropic refuse un schéma d'outil avec <code>allOf</code> au premier niveau — préexistant, corrigé par la PR #378, vérifié en local avec la vraie clé) ; <b>ligne RGDU absente ❌</b> (libellé de catégorie différent — préexistant, corrigé par la PR #378, montant 629,40 € à mesurer après mise en ligne).</p>
+<p><b>Pages légales</b> (PR #379) : rendu vérifié sur la Preview Vercel — cinq pages en 200, Google Cloud France / <code>europe-west1</code>, aucune formulation interdite. <span class="tag deduit">déduit</span> Entité contractante Google Cloud France = tableau officiel pour une adresse de facturation en France, à confirmer sur la première facture.</p>
+
+<h3>4.6 Train du 12/09 (go de Rose) — correctif #378 + textes légaux #379 <span class="tag mesure">mesuré</span></h3>
+<p>master <code>2171a3bd8</code> mis en ligne par <code>mettre-en-ligne-master.mjs</code> : 5/5 preuves sur l'URL directe, promotion, 5/5 sur www (<code>/api/version</code> = <code>2171a3bd8</code>). Sondes en production juste après (<code>sonde-prod-2026-09-12.json</code>, <code>sonde-post-deploiement-2026-09-12.json</code>) :</p>
+<table>
+<tr><th>Vérification</th><th>Résultat</th></tr>
+<tr><td>7 routes IA (voix, résumé, chat, Agent Paie, documents, contrôle, congés)</td><td><b>7 × 200</b></td></tr>
+<tr><td>Agent Paie, outil de calcul</td><td><b>OK</b> — appelé avec <code>{ brut: 2800 }</code> typé nombre</td></tr>
+<tr><td>Agent Paie, maintien conventionnel sans IDCC</td><td><b>OK</b> — refus en une phrase, aucun code technique</td></tr>
+<tr><td>Agent Paie, <b>mode Claude explicite</b> (cassé avant le correctif)</td><td><b>200</b>, réponse produite — Claude Sonnet 4.5 <code>streamRawPredict</code> visible dans les journaux de prod</td></tr>
+<tr><td>Chat, recherche web</td><td><b>OK</b> — 8 sources</td></tr>
+<tr><td>Contrôle Fillon, bulletin de référence 2 000 € / 151,67 h / effectif 30 (cassé avant : aucune ligne)</td><td><b>coefficient 0,3147, attendu 629,40 €, statut ok</b> — exactement la prévision de l'expert paie</td></tr>
+<tr><td>Variante effectif 120</td><td><b>0,3178 / 635,60 €, ok</b></td></tr>
+<tr><td>Variante ligne à 500 €</td><td><b>attention, écart −129,40 €</b></td></tr>
+<tr><td>Journaux Vercel <code>[ai-gateway]</code> (<code>traces-prod-www-2026-09-12.json</code>)</td><td><b>60 traces, 100 % <code>europe-west1-aiplatform.googleapis.com</code>, 0 refus</b> — Gemini 2.5 Flash, Pro, TTS et Claude Sonnet 4.5</td></tr>
+<tr><td>Six pages légales publiques sur www</td><td><b>6 × 200</b>, Google Cloud France, Singapour (Supabase), DPA version 1.1, datées du 11 septembre 2026, aucune formulation interdite</td></tr>
+</table>
+<h2>5. Disponibilité des modèles par région européenne <span class="tag mesure">mesuré sur la doc officielle</span></h2>
+<p>Google Cloud « Emplacements des points de terminaison », page datée 2026-09-11 (cellules « Compatible » lues dans le DOM) ; « Data residency » 2026-09-09. Détail et citations : <code>sources-officielles.md</code>.</p>
+<table>
+<tr><th>Modèle</th><th>europe-west1 (Belgique)</th><th>Autres régions UE</th><th>Résidence / traitement ML</th></tr>
+<tr><td>gemini-2.5-flash</td><td>✔</td><td>west2, west4, west3, north1, central2, west8, southwest1, west9</td><td>EU multi-région ✔</td></tr>
+<tr><td>gemini-2.5-pro</td><td>✔</td><td>west4, north1, central2, west8, southwest1, west9</td><td>EU multi-région ✔</td></tr>
+<tr><td>gemini-embedding-001</td><td>✔</td><td>toutes</td><td>EU multi-région ✔</td></tr>
+<tr><td>gemini-2.5-flash-tts</td><td>✔</td><td>west4, north1, central2, southwest1</td><td>absent du tableau <span class="tag nonverif">non vérifié</span></td></tr>
+<tr><td>Claude Sonnet 4.5 (Vertex)</td><td>✔ (seule région UE)</td><td>—</td><td>EU multi-région ✔, Belgique ✔</td></tr>
+</table>
+<p>Décision : <code>europe-west1</code>, seule région servant les cinq capacités. Alerte : la page Google « Claude on Google Cloud » (03/09/2026) indique pour Sonnet 4.5 « Retirement Date: Not sooner than Sept 29, 2026 » ; la bascule vers <code>claude-sonnet-4-6</code> (disponible en europe-west1) tient en une ligne de <code>gateway-config.js</code> — décision de Rose, le chantier ne change pas les modèles.</p>
+
+<h2>6. Décisions prises (et pourquoi)</h2>
+<ul>
+<li><b>Clé de compte de service plutôt que fédération OIDC Vercel↔GCP</b> : l'OIDC existe (doc Vercel 01/09/2026) mais demande plus de clics (pool, fournisseur, principal par environnement) et un jeton par environnement ; la clé chiffrée fonctionne à l'identique en Production, Preview et pour la preuve locale. Migration possible plus tard sans toucher aux routes.</li>
+<li><b>Pseudonymisation promise par le DPA : retirée</b> (pas de troisième voie). Jamais appliquée (aucun importeur), ses expressions masquent toute date et tout nombre de 9/14 chiffres (casse les calculs de paie), aveugle sur les noms et les PDF. Conséquence assumée : aucune minimisation en amont de l'inférence, et les textes ne prétendront pas le contraire.</li>
+<li><b>Web Grounding for Enterprise plutôt que Grounding with Google Search</b> : ce dernier conserve les requêtes 3 jours sans désactivation possible (doc « zero data retention » 2026-09-09).</li>
+<li><b>OpenAI, Perplexity, Tavily retirés</b> : remplacés par Gemini (résumé, voix) et Web Grounding ; Perplexity n'était appelé par aucune route de production.</li>
+<li><b>DeepSeek/Mistral du consensus C05</b> : pipelines batch sur textes CCN publics, hors application ; sortis de <code>src/</code> (injection depuis <code>scripts/</code>), non « retirés » car hors périmètre du prompt.</li>
+</ul>
+
+<h2>7. Verdicts écrits</h2>
+<div class="box"><b>juriste-paie</b> (11/09, brouillons v1) : <b>NO-GO</b> avec 7 corrections → appliquées dans la v2 de <code>brouillons-textes-legaux.md</code> (formulation stricte des transferts, conservation 30 jours anti-abus, entraînement sourcé sur les Service Specific Terms § 18, Anthropic marqué A_CONFIRMER, S-006 complété art. 30.2, délai 60 jours dans la notification). Deux arbitrages restent à Rose : <code>DPA_CURRENT_VERSION</code> (art. 15 : modification substantielle = re-signature) et l'envoi de la notification (le préavis doit courir AVANT la mise en œuvre).</div>
+<div class="box"><b>securite-rgpd</b> (11/09, sur le premier commit <code>ef6314b1b</code>) : <b>NO-GO</b> avec 4 corrections et 7 durcissements — ce qui a tenu à l'attaque (mesuré par l'agent) : express mode refusé avant émission, régions US/global/eu refusées, clé privée jamais exposée, trace sans contenu. Corrections appliquées dans le second commit : plus aucun <code>err.message</code> journalisé ni renvoyé au client sur les chemins IA (le SDK y embarque la sortie du modèle, donc le contenu lu), express mode neutralisé (<code>apiKey: ''</code>, testé), jeton de test ignoré sur toute cible Vercel, <code>getAccessToken</code> retiré de la surface publique, erreur de région → 503. Détail : <code>verdicts.md</code>.</div>
+<div class="box"><b>Décision sur le moment des pages légales.</b> Le verdict sécurité demande les pages dans le même lot ; le prompt de Rose impose « modifiées qu'après la preuve, jamais avant ». La règle de Rose prévaut. Pour réduire la fenêtre où l'écrit reste faux, la séquence pose des variables → Preview → mise en ligne → preuve → PR 2 sera enchaînée sans pause dès réception de la clé. Les pages sont déjà fausses aujourd'hui (depuis avril) ; le chantier ne l'aggrave pas.</div>
+<div class="box"><b>testeur-qa</b> (11/09, sur <code>16cb93d2a</code>) : <b>NO-GO en l'état, levable par deux vérifications</b>. Son point bloquant (lot de 50 embeddings refusé par Vertex) était <b>déduit</b> : la mesure avec la vraie clé le <b>réfute</b> (§ 4.4 ter). Corrigés dans le 3e commit : plus aucun code technique dans les messages de l'Agent Paie (règle de Rose du 11/09), vérificateur du contrôle de paie sous <code>try</code>, accents des messages, garde statique sur le pont CLI Claude. Reste à lui : chat et contrôle de paie mesurés en production, dépôt d'un document dans l'Agent Paie (plan § 6 de <code>verdicts.md</code>). Défauts préexistants notés hors périmètre : troncature silencieuse du résumé (20 000 caractères) et de la voix (4 000).</div>
+<div class="box"><b>expert-paie</b> (11/09, sur <code>16cb93d2a</code>) : <b>GO conditionnel</b> — le moteur de calcul n'est pas touché par le diff. Deux découvertes hors périmètre : le <b>report de congés</b> rend 30 jours au lieu de 5 sur le cas de la sonde (les 25 jours acquis 2024-2025 suivent la prise normale, L.3141-19-1 ; le prompt de la route l'impose, le modèle ne l'applique ni avant ni après — défaut préexistant, ≈ 2 000 € par salarié) ; et le contrôle de paie doit être rejoué en production sur un <b>bulletin de référence</b> : 2 000 € brut, 151,67 h, effectif &lt; 50 → réduction générale <b>629,40 €</b>, coefficient 0,3147 (variante effectif ≥ 50 : 635,60 €). Vérifier au navigateur qu'aucun <code>C08_…</code> n'apparaît quand l'Agent Paie refuse un maintien conventionnel sans IDCC.</div>
+
+<h2>8. Ce que Rose a fait (11/09, 16h–18h) et ce qui lui reste</h2>
+<p><b>Fait</b> (clics de Rose dans le navigateur intégré, préremplissage par moi) : les points 1 à 5 ci-dessous. La clé a été posée dans Vercel et supprimée du disque. <b>Reste à Rose</b> : le point 6 (exemption anti-abus, recommandé) et le point 7 (deux arbitrages) — et le « go » de mise en ligne demandé par la procédure <code>deploy-vercel-sur</code>.</p>
+<ol>
+<li>Google Cloud Console → créer un projet (nom libre, ex. <i>smartdatapay-ia-europe</i>), lié à son compte de facturation ; pays de facturation France (l'entité contractante doit être <b>Google Cloud EMEA Limited</b> : à lire sur la page Facturation → « Entité Google » — condition posée par le juriste).</li>
+<li>APIs et services → activer <b>Vertex AI API</b>.</li>
+<li>Vertex AI → Model Garden → « Claude Sonnet 4.5 » → <b>Activer / demander l'accès</b> (accepter les conditions Anthropic ; sans cela, le vérificateur du contrôle de paie échouera proprement et sera ignoré).</li>
+<li>IAM et administration → Comptes de service → Créer : nom <i>smartdatapay-vercel</i>, rôle <b>Utilisateur Vertex AI</b> (<code>roles/aiplatform.user</code>) et rien d'autre → Clés → Ajouter une clé → JSON → télécharger.</li>
+<li>Me remettre le fichier JSON par un canal privé (jamais dans le dépôt ni dans un chat public). Je le pose dans Vercel avec <code>scripts/ia-europe/poser-variables-vertex.mjs</code> puis je supprime le fichier local.</li>
+<li>Recommandé (formulaire Google, compte Rose) : demander l'exemption de journalisation anti-abus pour ce projet (« Abuse monitoring exemption ») — sinon les textes diront « conservation jusqu'à 30 jours ».</li>
+<li>Deux arbitrages écrits : (a) incrémenter <code>DPA_CURRENT_VERSION</code> (re-signature de tous les clients) ou consigner que la modification n'est pas substantielle ; (b) envoyer ou non la notification préparée (§ 7 des brouillons), et quand — le juriste rappelle que le préavis doit courir avant la mise en œuvre.</li>
+</ol>
+
+<h2>9. La phrase d'Andy</h2>
+<p><b>« Vos données sont hébergées en France, et l'IA qui les lit tourne en Europe. »</b> — rien de plus. Interdits : « souveraine », « sans fournisseur tiers », « aucune donnée ne quitte la France », « aucun transfert hors UE », « vos données ne sont pas conservées », « tourne en France ». Question CLOUD Act : « le prestataire est irlandais, le traitement se fait en Belgique, et son groupe est américain ; un accès depuis les États-Unis est encadré par les clauses contractuelles types, il n'est pas impossible. »</p>
+
+<h2>10. Rejouer</h2>
+<pre>git fetch origin && git checkout chantier/ia-en-europe
+npm run test:ia-europe:all            # frontière statique + passerelle + garde réseau (sans credential)
+npm run test:ai-budget && npm run test:controles && npm run test:ccn-c09
+SDP_GARDE_MODE=dev SDP_SONDE_STORAGE_STATE=&lt;storageState&gt; node scripts/ia-europe/garde-reseau-serveur.mjs 3012
+SDP_SONDE_STORAGE_STATE=&lt;storageState&gt; SDP_SONDE_BASE=https://www.smartdatapay.app npm run sonde:ia-europe   # après mise en ligne</pre>
+<p class="sub">Fichiers : <code>inventaire-routes-ia.md</code> (avant/après, fichier par fichier), <code>sources-officielles.md</code> (citations datées), <code>brouillons-textes-legaux.md</code> (v2), <code>sonde-avant-2026-09-11.json</code>, <code>garde-reseau-serveur-*.json</code>, <code>PROJECT-HANDOFF.md</code> (racine).</p>
+</body>
+</html>

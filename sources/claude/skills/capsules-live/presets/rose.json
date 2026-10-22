@@ -1,0 +1,20 @@
+{
+  "nom": "rose",
+  "affichage": "Gabarit Rose YEMELI — marine/or/crème, Georgia centré (validé 17/07/2026)",
+  "couleurs": {
+    "fond_haut": "#1A365D",
+    "fond_bas": "#2D4A63",
+    "degrade_facteur": 0.6,
+    "accent": "#D4A853",
+    "texte_titre": "#FAF9F6",
+    "sub_base": "#FAF9F6",
+    "sub_accent": "#D4A853"
+  },
+  "kicker": {"texte": "E X T R A I T   D U   L I V E", "police": "segoeuib.ttf", "taille": 26, "align": "center"},
+  "titre": {"police": "georgiab.ttf", "taille_max": 46, "taille_min": 30, "align": "center", "souligne": false},
+  "cadre": {"epaisseur": 4},
+  "badge": {"texte": "Rose YEMELI", "police": "segoeuib.ttf", "taille": 30, "texte_couleur": "#1A365D", "position": "bas-gauche"},
+  "sous_titres": {"police": "Segoe UI", "taille": 46},
+  "video_y": 130,
+  "fps": 16
+}

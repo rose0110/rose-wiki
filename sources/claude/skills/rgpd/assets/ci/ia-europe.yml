@@ -1,0 +1,70 @@
+name: IA en Europe — frontière et garde réseau
+
+# Un fichier de src/ qui importe un fournisseur d'IA directement, ou une
+# passerelle qui viserait un hôte hors Union européenne, ne passe pas la CI.
+# Trois contrôles : analyse statique (liste blanche fermée = la passerelle),
+# comportement de la passerelle sans réseau (refus sans variables Vertex,
+# hôtes europe-* seulement), garde réseau à l'exécution (préchargeur qui
+# intercepte DNS/TCP/TLS/HTTP/fetch et mesure chaque cible).
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'tests/ia-europe/**'
+      - 'tests/controles/**'
+      - 'scripts/ia-europe/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/ia-europe.yml'
+  push:
+    branches: [master]
+    paths:
+      - 'src/**'
+      - 'tests/ia-europe/**'
+      - 'tests/controles/**'
+      - 'scripts/ia-europe/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/ia-europe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ia-europe-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  frontiere:
+    name: Frontière statique + passerelle sans réseau
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run test:ia-europe
+      - run: npm run test:controles
+
+  garde-reseau:
+    name: Garde réseau à l'exécution (préchargeur)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # Aucune clé de fournisseur : les sondes n'ont besoin que d'une cible.
+      ANTHROPIC_API_KEY: ''
+      OPENAI_API_KEY: ''
+      GOOGLE_GENERATIVE_AI_API_KEY: ''
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run test:ia-europe:network

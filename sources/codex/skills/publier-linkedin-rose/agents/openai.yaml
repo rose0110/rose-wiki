@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn de Rose"
+  short_description: "Créer et programmer les publications de Rose"
+  default_prompt: "Utilise $publier-linkedin-rose pour préparer une publication LinkedIn pédagogique dans mon style et attendre ma validation."

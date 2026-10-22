@@ -1,0 +1,11 @@
+{
+  "name": "paraf-skill",
+  "private": true,
+  "type": "module",
+  "description": "Skill Claude Code — signature électronique Paraf (détection IA + placement des champs depuis le chat)",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-to-img": "^4.4.0"
+  }
+}

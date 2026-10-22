@@ -1,0 +1,20 @@
+{
+  "nom": "daniel",
+  "affichage": "Gabarit Daniel CLEMENTINE — anthracite/turquoise, Segoe UI aligné à gauche (cadeau, créé 18/07/2026)",
+  "couleurs": {
+    "fond_haut": "#1B1F24",
+    "fond_bas": "#232A31",
+    "degrade_facteur": 1.0,
+    "accent": "#2EC4B6",
+    "texte_titre": "#F4F6F5",
+    "sub_base": "#F4F6F5",
+    "sub_accent": "#2EC4B6"
+  },
+  "kicker": {"texte": "EXTRAIT DU LIVE  IA & PAIE", "police": "segoeuib.ttf", "taille": 25, "align": "left"},
+  "titre": {"police": "segoeuib.ttf", "taille_max": 50, "taille_min": 32, "align": "left", "souligne": true},
+  "cadre": {"epaisseur": 3},
+  "badge": {"texte": "Daniel CLEMENTINE", "police": "segoeuib.ttf", "taille": 30, "texte_couleur": "#1B1F24", "position": "bas-droite"},
+  "sous_titres": {"police": "Segoe UI", "taille": 46},
+  "video_y": 150,
+  "fps": 30
+}

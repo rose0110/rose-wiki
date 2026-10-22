@@ -1,0 +1,7 @@
+interface:
+  display_name: "SEO performance"
+  short_description: "Rechercher, agir et améliorer le SEO chaque semaine"
+  default_prompt: "Utilise $seo-performance pour rechercher les mots-clés, exécuter les optimisations prioritaires et installer la routine hebdomadaire de cette plateforme."
+
+policy:
+  allow_implicit_invocation: true

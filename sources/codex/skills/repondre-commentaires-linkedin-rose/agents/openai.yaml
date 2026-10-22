@@ -1,0 +1,7 @@
+interface:
+  display_name: "Répondre aux commentaires LinkedIn"
+  short_description: "Réponses brèves aux commentaires de Rose"
+  default_prompt: "Utilise $repondre-commentaires-linkedin-rose pour traiter mes nouveaux commentaires LinkedIn."
+
+policy:
+  allow_implicit_invocation: true

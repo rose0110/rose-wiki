@@ -1,0 +1,4 @@
+interface:
+  display_name: "Redémarrer Claude sous Windows"
+  short_description: "Répare et relance Claude sans redémarrer Windows"
+  default_prompt: "Utilise $redemarrer-claude-windows pour diagnostiquer et relancer Claude sans redémarrer Windows."

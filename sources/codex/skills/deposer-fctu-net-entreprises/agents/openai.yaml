@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dépôt FCTU Net-entreprises"
+  short_description: "Déposer et contrôler un signalement FCTU sur Net-entreprises"
+  default_prompt: "Dépose ce fichier FCTU sur Net-entreprises, contrôle son résultat et traite les anomalies sans modifier l'original."

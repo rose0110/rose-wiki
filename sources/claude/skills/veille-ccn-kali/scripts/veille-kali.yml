@@ -1,0 +1,65 @@
+name: Veille KALI quotidienne
+
+# Composant generique reutilisable.
+# Detecte chaque jour les conventions collectives (CCN) modifiees chez DILA
+# et ecrit la veille brute dans une table Airtable. Aucune logique metier :
+# n'importe quelle application peut ensuite lire cette table.
+#
+# Secrets a configurer (Settings > Secrets and variables > Actions) :
+#   AIRTABLE_PAT       - Personal Access Token Airtable
+#   AIRTABLE_BASE_ID   - id de la base cible (commence par "app")
+# Variable (optionnelle) :
+#   AIRTABLE_TABLE     - nom de la table (defaut : veille_ccn)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # quotidien 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Date min ISO (YYYY-MM-DD). Defaut : hier."
+        required: false
+        type: string
+      max_archives:
+        description: "Limite securite sur le nb d'archives."
+        required: false
+        default: "10"
+        type: string
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+      AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+      AIRTABLE_TABLE: ${{ vars.AIRTABLE_TABLE || 'veille_ccn' }}
+      PYTHONIOENCODING: utf-8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Watcher KALI
+        run: |
+          SINCE="${{ github.event.inputs.since }}"
+          MAX="${{ github.event.inputs.max_archives || '10' }}"
+          CMD="python watcher_kali.py --max-archives $MAX"
+          [ -n "$SINCE" ] && CMD="$CMD --since $SINCE"
+          echo "Running: $CMD"
+          $CMD
+
+      - name: Push veille -> Airtable
+        run: python airtable_veille.py
+
+      - name: Upload delta (debug)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kali-delta
+          path: kali_delta_*.json
+          retention-days: 7
