@@ -9,11 +9,13 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## assistant-reunions
 
+- [2026-10-22](assistant-reunions/2026-10-22.md)
 - [2026-10-20](assistant-reunions/2026-10-20.md)
 - [2026-10-19](assistant-reunions/2026-10-19.md)
 
 ## asteren-pablo
 
+- [2026-10-22](asteren-pablo/2026-10-22.md)
 - [2026-10-21](asteren-pablo/2026-10-21.md)
 - [2026-10-20](asteren-pablo/2026-10-20.md)
 - [2026-10-19](asteren-pablo/2026-10-19.md)
@@ -34,6 +36,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## automatisation-fiona
 
+- [2026-10-22](automatisation-fiona/2026-10-22.md)
 - [2026-10-21](automatisation-fiona/2026-10-21.md)
 - [2026-10-20](automatisation-fiona/2026-10-20.md)
 - [2026-10-19](automatisation-fiona/2026-10-19.md)
@@ -53,6 +56,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## berceaux-dacote
 
+- [2026-10-22](berceaux-dacote/2026-10-22.md)
 - [2026-10-21](berceaux-dacote/2026-10-21.md)
 - [2026-10-20](berceaux-dacote/2026-10-20.md)
 - [2026-10-19](berceaux-dacote/2026-10-19.md)
@@ -75,10 +79,12 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## blog-paie
 
+- [2026-10-22](blog-paie/2026-10-22.md)
 - [2026-10-19](blog-paie/2026-10-19.md)
 
 ## datapaie
 
+- [2026-10-22](datapaie/2026-10-22.md)
 - [2026-10-21](datapaie/2026-10-21.md)
 - [2026-10-20](datapaie/2026-10-20.md)
 - [2026-10-19](datapaie/2026-10-19.md)
@@ -100,6 +106,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## divers
 
+- [2026-10-22](divers/2026-10-22.md)
 - [2026-10-21](divers/2026-10-21.md)
 - [2026-10-20](divers/2026-10-20.md)
 - [2026-10-19](divers/2026-10-19.md)
@@ -168,6 +175,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## micro-creche-facile
 
+- [2026-10-22](micro-creche-facile/2026-10-22.md)
 - [2026-10-19](micro-creche-facile/2026-10-19.md)
 - [2026-10-18](micro-creche-facile/2026-10-18.md)
 - [2026-10-17](micro-creche-facile/2026-10-17.md)
@@ -177,6 +185,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## paraf-signature
 
+- [2026-10-22](paraf-signature/2026-10-22.md)
 - [2026-10-19](paraf-signature/2026-10-19.md)
 - [2026-10-12](paraf-signature/2026-10-12.md)
 - [2026-10-11](paraf-signature/2026-10-11.md)
@@ -194,6 +203,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## rosevideo
 
+- [2026-10-22](rosevideo/2026-10-22.md)
 - [2026-10-19](rosevideo/2026-10-19.md)
 - [2026-10-18](rosevideo/2026-10-18.md)
 - [2026-10-17](rosevideo/2026-10-17.md)
