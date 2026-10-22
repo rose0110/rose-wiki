@@ -14,6 +14,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## asteren-pablo
 
+- [2026-10-21](asteren-pablo/2026-10-21.md)
 - [2026-10-20](asteren-pablo/2026-10-20.md)
 - [2026-10-19](asteren-pablo/2026-10-19.md)
 - [2026-10-18](asteren-pablo/2026-10-18.md)
@@ -52,6 +53,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## berceaux-dacote
 
+- [2026-10-21](berceaux-dacote/2026-10-21.md)
 - [2026-10-20](berceaux-dacote/2026-10-20.md)
 - [2026-10-19](berceaux-dacote/2026-10-19.md)
 - [2026-10-17](berceaux-dacote/2026-10-17.md)
@@ -98,6 +100,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## divers
 
+- [2026-10-21](divers/2026-10-21.md)
 - [2026-10-20](divers/2026-10-20.md)
 - [2026-10-19](divers/2026-10-19.md)
 - [2026-10-18](divers/2026-10-18.md)
@@ -117,6 +120,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## ebook
 
+- [2026-10-21](ebook/2026-10-21.md)
 - [2026-10-20](ebook/2026-10-20.md)
 - [2026-10-19](ebook/2026-10-19.md)
 - [2026-10-18](ebook/2026-10-18.md)
@@ -143,6 +147,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## innovpaie-automation-openpaye
 
+- [2026-10-22](innovpaie-automation-openpaye/2026-10-22.md)
 - [2026-10-21](innovpaie-automation-openpaye/2026-10-21.md)
 - [2026-10-20](innovpaie-automation-openpaye/2026-10-20.md)
 - [2026-10-19](innovpaie-automation-openpaye/2026-10-19.md)
@@ -208,6 +213,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## smartdatapay
 
+- [2026-10-22](smartdatapay/2026-10-22.md)
 - [2026-10-21](smartdatapay/2026-10-21.md)
 - [2026-10-20](smartdatapay/2026-10-20.md)
 - [2026-10-19](smartdatapay/2026-10-19.md)
