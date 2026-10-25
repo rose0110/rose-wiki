@@ -18,6 +18,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## asteren-pablo
 
+- [2026-10-25](asteren-pablo/2026-10-25.md)
 - [2026-10-24](asteren-pablo/2026-10-24.md)
 - [2026-10-23](asteren-pablo/2026-10-23.md)
 - [2026-10-22](asteren-pablo/2026-10-22.md)
@@ -41,6 +42,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## automatisation-fiona
 
+- [2026-10-25](automatisation-fiona/2026-10-25.md)
 - [2026-10-24](automatisation-fiona/2026-10-24.md)
 - [2026-10-23](automatisation-fiona/2026-10-23.md)
 - [2026-10-22](automatisation-fiona/2026-10-22.md)
@@ -92,6 +94,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## datapaie
 
+- [2026-10-25](datapaie/2026-10-25.md)
 - [2026-10-24](datapaie/2026-10-24.md)
 - [2026-10-23](datapaie/2026-10-23.md)
 - [2026-10-22](datapaie/2026-10-22.md)
@@ -116,6 +119,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## divers
 
+- [2026-10-25](divers/2026-10-25.md)
 - [2026-10-24](divers/2026-10-24.md)
 - [2026-10-23](divers/2026-10-23.md)
 - [2026-10-22](divers/2026-10-22.md)
@@ -167,6 +171,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## innovpaie-automation-openpaye
 
+- [2026-10-25](innovpaie-automation-openpaye/2026-10-25.md)
 - [2026-10-24](innovpaie-automation-openpaye/2026-10-24.md)
 - [2026-10-23](innovpaie-automation-openpaye/2026-10-23.md)
 - [2026-10-22](innovpaie-automation-openpaye/2026-10-22.md)
@@ -202,6 +207,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## paraf-signature
 
+- [2026-10-25](paraf-signature/2026-10-25.md)
 - [2026-10-22](paraf-signature/2026-10-22.md)
 - [2026-10-19](paraf-signature/2026-10-19.md)
 - [2026-10-12](paraf-signature/2026-10-12.md)
@@ -243,6 +249,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## smartdatapay
 
+- [2026-10-25](smartdatapay/2026-10-25.md)
 - [2026-10-24](smartdatapay/2026-10-24.md)
 - [2026-10-23](smartdatapay/2026-10-23.md)
 - [2026-10-22](smartdatapay/2026-10-22.md)
