@@ -45,6 +45,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## automatisation-fiona
 
+- [2026-10-28](automatisation-fiona/2026-10-28.md)
 - [2026-10-27](automatisation-fiona/2026-10-27.md)
 - [2026-10-26](automatisation-fiona/2026-10-26.md)
 - [2026-10-25](automatisation-fiona/2026-10-25.md)
@@ -100,6 +101,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## datapaie
 
+- [2026-10-28](datapaie/2026-10-28.md)
 - [2026-10-27](datapaie/2026-10-27.md)
 - [2026-10-25](datapaie/2026-10-25.md)
 - [2026-10-24](datapaie/2026-10-24.md)
@@ -225,6 +227,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## paraf-signature
 
+- [2026-10-28](paraf-signature/2026-10-28.md)
 - [2026-10-25](paraf-signature/2026-10-25.md)
 - [2026-10-22](paraf-signature/2026-10-22.md)
 - [2026-10-19](paraf-signature/2026-10-19.md)
@@ -294,6 +297,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## tellmo
 
+- [2026-10-28](tellmo/2026-10-28.md)
 - [2026-10-27](tellmo/2026-10-27.md)
 - [2026-10-26](tellmo/2026-10-26.md)
 - [2026-10-23](tellmo/2026-10-23.md)
