@@ -18,6 +18,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## asteren-pablo
 
+- [2026-11-01](asteren-pablo/2026-11-01.md)
 - [2026-10-31](asteren-pablo/2026-10-31.md)
 - [2026-10-30](asteren-pablo/2026-10-30.md)
 - [2026-10-28](asteren-pablo/2026-10-28.md)
@@ -47,6 +48,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## automatisation-fiona
 
+- [2026-11-01](automatisation-fiona/2026-11-01.md)
 - [2026-10-31](automatisation-fiona/2026-10-31.md)
 - [2026-10-30](automatisation-fiona/2026-10-30.md)
 - [2026-10-29](automatisation-fiona/2026-10-29.md)
@@ -95,6 +97,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## bilan
 
+- [2026-11-01](bilan/2026-11-01.md)
 - [2026-10-31](bilan/2026-10-31.md)
 - [2026-10-11](bilan/2026-10-11.md)
 - [2026-10-07](bilan/2026-10-07.md)
@@ -107,6 +110,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## datapaie
 
+- [2026-11-01](datapaie/2026-11-01.md)
 - [2026-10-31](datapaie/2026-10-31.md)
 - [2026-10-30](datapaie/2026-10-30.md)
 - [2026-10-29](datapaie/2026-10-29.md)
@@ -137,6 +141,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## divers
 
+- [2026-11-01](divers/2026-11-01.md)
 - [2026-10-31](divers/2026-10-31.md)
 - [2026-10-30](divers/2026-10-30.md)
 - [2026-10-29](divers/2026-10-29.md)
@@ -199,6 +204,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## innovpaie-automation-openpaye
 
+- [2026-11-01](innovpaie-automation-openpaye/2026-11-01.md)
 - [2026-10-31](innovpaie-automation-openpaye/2026-10-31.md)
 - [2026-10-30](innovpaie-automation-openpaye/2026-10-30.md)
 - [2026-10-29](innovpaie-automation-openpaye/2026-10-29.md)
@@ -292,6 +298,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## smartdatapay
 
+- [2026-11-01](smartdatapay/2026-11-01.md)
 - [2026-10-31](smartdatapay/2026-10-31.md)
 - [2026-10-30](smartdatapay/2026-10-30.md)
 - [2026-10-29](smartdatapay/2026-10-29.md)
@@ -322,6 +329,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## tellmo
 
+- [2026-11-01](tellmo/2026-11-01.md)
 - [2026-10-30](tellmo/2026-10-30.md)
 - [2026-10-29](tellmo/2026-10-29.md)
 - [2026-10-28](tellmo/2026-10-28.md)
