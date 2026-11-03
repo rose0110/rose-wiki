@@ -25,3 +25,10 @@
 | Démos transcrites (dreamy-boyd-25052d) | Sortir **toutes** les démos (~11) | Choix de Rose | À lancer dans la session |
 | HUP (Automatisation Fiona) | Décision du 09/09 levée : mettre en ligne ce qui est prêt | Choix de Rose | Vérification de sécurité en cours avant déploiement |
 | HUP — mots de passe de production | Ne pas changer les mots de passe de production pour l'instant | Décision de Rose (20/10) | — |
+
+## 03/11/2026 (Paris)
+
+| Sujet | Choix | Raison | Preuve / état |
+|---|---|---|---|
+| SmartDataPay — mise en ligne de la nouvelle version de l'application | Rose autorise la mise en ligne (version prête et contrôlée depuis le 02/11 à 18 h 43) | Version contrôlée, pas de date limite ; accord donné par Rose dans le chat Fils rouges le 03/11 à 23 h 24 | Bot SmartDataPay prévenu : il met en ligne ou redemande son go dans son propre chat |
+| SmartDataPay — texte de la première vidéo (bouton « Poser une question ») | Déjà validé par Rose | Rose répond « déjà validé » le 03/11 à 23 h 25 | Point clos |
