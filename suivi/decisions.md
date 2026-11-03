@@ -30,5 +30,5 @@
 
 | Sujet | Choix | Raison | Preuve / état |
 |---|---|---|---|
-| SmartDataPay — mise en ligne de la nouvelle version de l'application | Rose autorise la mise en ligne (version prête et contrôlée depuis le 02/11 à 18 h 43) | Version contrôlée, pas de date limite ; accord donné par Rose dans le chat Fils rouges le 03/11 à 23 h 24 | Bot SmartDataPay prévenu : il met en ligne ou redemande son go dans son propre chat |
+| SmartDataPay — mise en ligne | **Annulé / sans effet** : le « oui » de Rose du 03/11 à 23 h 24 portait sur une version « prête depuis le 02/11 » que le bot SmartDataPay ne retrouve pas | Le go relayé par un autre bot ne vaut pas validation chez SmartDataPay ; production déjà mise à jour le 03/11 à 20 h 47 (version 564e88d4) ; PR 878 déjà autorisée à 13 h 05, mise en ligne prévue le 04/11 à 7 h si les contrôles sont verts | SmartDataPay posera lui-même sa question à Rose dans son chat |
 | SmartDataPay — texte de la première vidéo (bouton « Poser une question ») | Déjà validé par Rose | Rose répond « déjà validé » le 03/11 à 23 h 25 | Point clos |
