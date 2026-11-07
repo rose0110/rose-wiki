@@ -1,10 +1,14 @@
 # Boucles ouvertes
 
-_Généré automatiquement par open_loops.py le 06/11/2026 23:06 (heure de Paris) — fenêtre 30 jours, secrets masqués._
+_Généré automatiquement par open_loops.py le 07/11/2026 23:02 (heure de Paris) — fenêtre 30 jours, secrets masqués._
 
-**Résumé** : 26 réponse(s) attendue(s) · 15 tâche(s) suggérée(s) non lancée(s) · 690 branche(s) non fusionnée(s) dans 28 dépôt(s).
+**Résumé** : 26 réponse(s) attendue(s) · 17 tâche(s) suggérée(s) non lancée(s) · 683 branche(s) non fusionnée(s) dans 28 dépôt(s).
 
 ## 1. En attente de ta réponse
+
+### blog-paie-rose-yemeli
+- **07/11 18:19** (Codex) — _<recommended_plugins> Here is a list of plugins that are available but not installed. - A…_  
+  ❓ <message>Nouvelle fenêtre manquée le 7 novembre : le contrôle mémoire n’a produit aucun tour entre 02 h 55 et 15 h 50 ; la réception SEO n’a exécuté que deux des trois passages attendus, dont un tard…
 
 ### new-session-eeaf39
 - **06/11 18:18** (Claude) — _fait un résumé de ce que j'ai fait en image pour validation_  
@@ -77,8 +81,6 @@ _Généré automatiquement par open_loops.py le 06/11/2026 23:06 (heure de Paris
 ### automationopenpaye
 - **15/10 09:57** (Claude) — _<pasted_content id="1926"> Point DSN automatique - TOUS LES DOSSIERS 2026-10-08 11:00 UTC…_  
   ❓ Ce texte te convient ?
-- **08/10 11:16** (Claude) — _<pasted_content id="f601"> PIERRE LEGAYE 09:14 (il y a 1 heure) À moi, Florian Bonjour Un…_  
-  ❓ C'est noté : on ne dépose rien et on ne répond pas à Pierre. C'est le cabinet qui suspend ces mois, parce que le client ne valide pas ses paies.
 
 ### berceaux-crm
 - **13/10 12:09** (Claude) — _malo fini le 31 juillet_  
@@ -105,6 +107,12 @@ _Généré automatiquement par open_loops.py le 06/11/2026 23:06 (heure de Paris
 
 _Heuristique : propositions de l’IA en fin de réponse sans session ultérieure du même projet qui semble les reprendre (max 5 par projet)._
 
+### logiciel-paie-datapaie
+- [ ] Reste à faire** : la copie de travail temporaire est toujours sur le disque. Pour la retirer, il faut d'abord retirer le lien vers les modules partagés, et l'o… — _07/11 22:22, Claude : Genere en LOCAL les PDF des bulletins 2315304 (septembre 20…_
+- [ ] Ce qui reste à faire** : compter les jours travaillés de septembre et d'octobre, ajouter 8,70 € par jour, recalculer, laisser en brouillon, puis répondre à GRO… — _07/11 18:54, Claude : Lis C:\ProgramData\boite-aux-lettres\BOITE-AUX-LETTRES.md, …_
+- [ ] La note est écrite dans la passation, mais seulement sur ce poste : elle n'est pas encore enregistrée dans le dépôt, tout comme celle du 20/10. Prochaine étape… — _22/10 16:23, Claude : <scheduled-task name="lecture-retours-dsn" file="C:\Users\r…_
+- [ ] Prochaine étape : reprendre les taux d'impôt dans les fiches avant la paie d'octobre, puis faire valider avec toi la maquette du compte rendu. — _20/10 20:53, Claude : <scheduled-task name="lecture-retours-dsn" file="C:\Users\r…_
+
 ### serene-franklin-8a5cae
 - [ ] le dossier affiché. — _05/11 19:32, Claude : <ci-monitor-event>"Auto-fix pull requests" is watching Smar…_
 - [ ] le site sert bien la nouvelle version ; — _05/11 19:32, Claude : <ci-monitor-event>"Auto-fix pull requests" is watching Smar…_
@@ -124,10 +132,6 @@ _Heuristique : propositions de l’IA en fin de réponse sans session ultérieur
 - [ ] Pendant la correction, un remplacement automatique a modifié la mise en forme de tout le fichier du catalogue. Je l'ai réparé : seule la ligne du lien change. — _30/10 15:01, Claude : Oui, corrige-le_
 - [ ] Tous les tests des contrôles et des contrats passent en local. Les vérifications automatiques sur GitHub sont en cours. — _30/10 15:01, Claude : Oui, corrige-le_
 
-### logiciel-paie-datapaie
-- [ ] La note est écrite dans la passation, mais seulement sur ce poste : elle n'est pas encore enregistrée dans le dépôt, tout comme celle du 20/10. Prochaine étape… — _22/10 16:23, Claude : <scheduled-task name="lecture-retours-dsn" file="C:\Users\r…_
-- [ ] Prochaine étape : reprendre les taux d'impôt dans les fiches avant la paie d'octobre, puis faire valider avec toi la maquette du compte rendu. — _20/10 20:53, Claude : <scheduled-task name="lecture-retours-dsn" file="C:\Users\r…_
-
 ### smartdatapay-app
 - [ ] Reste à faire : décider si on relance la chaîne autonome. Tant qu'elle est arrêtée, les synthèses restent figées. Cette routine de nuit est périmée et devrait … — _21/10 11:59, Claude : <scheduled-task name="resync-syntheses-ccn-nuit" file="C:\U…_
 
@@ -140,9 +144,9 @@ _Heuristique : propositions de l’IA en fin de réponse sans session ultérieur
 _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fetch : état local)._
 
 ### smartdatapay-app (base `master`, 237 worktree(s))
-- `claude/maitriser-copilot-6c6ea0` — 06/11 23:48, +21 commit(s) · worktree `maitriser-copilot-6c6ea0` — Maîtriser Copilot : films 6.2, 6.3, 7.5 et 7.6 (scènes, prononciation)
+- `fix/contrat-formation-recteur` — 07/11 18:28, +243 commit(s) · worktree `wt-contrat-recteur` — ci(ccn): job application sur ubuntu-24.04, Playwright refusant l'image 26.04 (P…
+- `claude/maitriser-copilot-6c6ea0` — 07/11 00:09, +22 commit(s) · worktree `maitriser-copilot-6c6ea0` — Maîtriser Copilot : film 8.1 (scènes, prononciation)
 - `formation/maitriser-claude-site` — 06/11 17:51, +274 commit(s) · worktree `mini-formation-claude-b6fbaf` — Suivi : communication et promo de lancement après l'ouverture
-- `fix/contrat-formation-recteur` — 06/11 17:40, +238 commit(s) · worktree `wt-contrat-recteur` — fix(formation): CI formation verte, durée en heures et travaux de la formation …
 - `formation/maitriser-chatgpt` — 06/11 17:01, +50 commit(s) · worktree `competent-jang-8ee384` — Maîtriser ChatGPT : films de la partie 1 validés par Rose
 - `formation/complete-videos-ue4-6` — 06/11 14:26, +11 commit(s) · worktree `wt-complete-videos-ue4-6` — docs(formation): registre des films UE4-UE6, mesures après refilmage
 - `claude/guides-ia-en-production` — 06/11 13:24, +236 commit(s) · worktree `formation-chatgpt-907dc7` — Reprise de master dans le compte rendu des guides d'IA
@@ -155,9 +159,9 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `fix/agents-etat-conversation` — 05/11 16:46, +145 commit(s) · worktree `serene-franklin-8a5cae` — Merge remote-tracking branch 'origin/master' into fix/agents-etat-conversation
 - `docs/audit-simulateurs-preuve-prod` — 05/11 13:54, +103 commit(s) · worktree `exciting-wing-03bc59` — docs(audit-simulateurs): preuve en production de l'audit des simulateurs (64fdd…
 - `claude/serene-feynman-2ddb76` — 05/11 13:27, +2 commit(s) · worktree `serene-feynman-2ddb76` — docs(chantiers): erreur React 418 des synthèses expliquée, correction en PR
-- … et 83 autre(s)
+- … et 82 autre(s)
 
-### logiciel-paie-datapaie (base `main`, 175 worktree(s))
+### logiciel-paie-datapaie (base `main`, 176 worktree(s))
 - `claude/envoi-direct-stockage` — 06/11 18:07, +2540 commit(s) · worktree `agitated-darwin-9e2699` — docs(envois): passation du chantier envoi direct au stockage (PR #649)
 - `claude/garde-taille-envois` — 06/11 11:24, +2534 commit(s) · worktree `payslips-2026-loading-error-c430d2` — chore(agent): manifeste régénéré (route /api/erreurs-client, télémétrie non dél…
 - `claude/bulletin-classification` — 05/11 20:19, +2528 commit(s) — fix(bulletin): la classification conventionnelle du contrat s'affiche sur le bu…
@@ -209,7 +213,7 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `fix/tous-les-dossiers-entree` — 30/10 10:24, +441 commit(s) · worktree `wt-tous-dossiers-app` — fix(cabinet): plus de présélection des noms de responsable suggérés
 - `fix/adresse-coffre-gestionnaires` — 28/10 15:36, +437 commit(s) · worktree `wt-adresse-coffre-app` — fix(coffre): les gestionnaires en charge du dossier changent l'adresse
 - `fix/collecte-echanges-5-ans` — 28/10 01:02, +436 commit(s) · worktree `wt-purge-collecte-app` — fix(collecte-migration): cabinet — date d'effacement définitif des échanges sur…
-- … et 39 autre(s)
+- … et 38 autre(s)
 
 ### openpayesharepoint-web (base `master`, 47 worktree(s))
 - `correctif/bandeau-bonjour` — 05/11 12:43, +560 commit(s) · worktree `wt-q14-web` — Accueil de l'espace employeur : bandeau « Bonjour » plus grand, sans semi-gras …
@@ -233,8 +237,6 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `codex/seo-googlebot-chunks-2026-10-22` — 05/11 11:54, +6 commit(s) · worktree `paraf-signature` — docs(seo): consigner les preuves du 5 novembre
 - `codex/signatory-field-colors-2026-10-24` — 24/10 18:04, +5 commit(s) · worktree `paraf-signature` — docs: actualiser les preuves des couleurs signataires
 - `docs/conservation-en-prod` — 11/10 12:22, +1 commit(s) — docs: durée de la trace des suppressions confirmée (5 ans, Rose 11/10/2026)
-- `fix/idor-signataire` — 08/10 23:49, +1 commit(s) — fix(securite): signatory.remove vérifie que le signataire appartient au document
-- `feat/sms-facture-partenaire` — 08/10 23:36, +1 commit(s) · worktree `strange-shirley-589830` — feat(sms): SMS des clients SmartDataPay facturés par SmartDataPay (décision Ros…
 
 ### microcreche-facile (base `main`, 25 worktree(s))
 - `codex/youtube-production-autonome-20261018` — 05/11 09:05, +468 commit(s) · worktree `microcreche-facile` — Distinguer le suivi V031 courant de ses constats historiques
@@ -270,7 +272,7 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `tri-admin-sur-master` — 30/10 14:22, +887 commit(s) — feat(collecte-migration): actions groupées sur le tri et saisie des accès OpenP…
 - `feat/collecte-tri-dossiers` — 30/10 11:27, +832 commit(s) — feat(collecte-migration): Rose choisit aussi le tri depuis son compte
 - `fix/depot-bulletins-sans-trace` — 30/10 11:09, +835 commit(s) · worktree `wt-depot-sans-trace-api` — fix(gestes-bulletins): refus « accès OpenPaye » sans contourner bulletinsCalcul…
-- … et 53 autre(s)
+- … et 52 autre(s)
 
 ### documentation (base `master`, 26 worktree(s))
 - `fix/coffre-actif-invitation` — 04/11 10:49, +296 commit(s) · worktree `wt-reactivation-doc` — Documentation : état de prod du correctif des invitations sur coffre actif
@@ -288,7 +290,7 @@ _Branches locales avec commit < 30 j non fusionnées dans main/master (aucun fet
 - `feat/lot-a-pilotage` — 24/10 16:39, +149 commit(s) · worktree `wt-lot-a-doc` — Agrément (règle 12 J) : pastille « Demande un geste », mois en ‹ ›, moyen de ré…
 - `p2-avant-rebase` — 24/10 14:11, +152 commit(s) — Lot B partie 2 après QA n° 3 : la responsable d'un dossier restreint reconnue à…
 - `feat/lot-b-parametrage-acces` — 24/10 09:15, +149 commit(s) — Lot B partie 1 sur le lot A définitif (e45edc6) : Paramétrage du dossier, invit…
-- … et 21 autre(s)
+- … et 19 autre(s)
 
 ### openpayesharepoint-api (base `master`, 57 worktree(s))
 - `correctifs/fiona-accident-avenant` — 04/11 01:38, +887 commit(s) · worktree `wt-q14-api` — Passation : correctifs accident, fil réservé, avenants, journal (branche non fu…
