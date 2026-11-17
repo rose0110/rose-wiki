@@ -27,6 +27,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## asteren-pablo
 
+- [2026-11-17](asteren-pablo/2026-11-17.md)
 - [2026-11-16](asteren-pablo/2026-11-16.md)
 - [2026-11-15](asteren-pablo/2026-11-15.md)
 - [2026-11-14](asteren-pablo/2026-11-14.md)
@@ -56,10 +57,10 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-19](asteren-pablo/2026-10-19.md)
 - [2026-10-18](asteren-pablo/2026-10-18.md)
 - [2026-10-17](asteren-pablo/2026-10-17.md)
-- [2026-10-16](asteren-pablo/2026-10-16.md)
 
 ## automatisation-fiona
 
+- [2026-11-17](automatisation-fiona/2026-11-17.md)
 - [2026-11-16](automatisation-fiona/2026-11-16.md)
 - [2026-11-15](automatisation-fiona/2026-11-15.md)
 - [2026-11-14](automatisation-fiona/2026-11-14.md)
@@ -89,7 +90,6 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-20](automatisation-fiona/2026-10-20.md)
 - [2026-10-19](automatisation-fiona/2026-10-19.md)
 - [2026-10-18](automatisation-fiona/2026-10-18.md)
-- [2026-10-17](automatisation-fiona/2026-10-17.md)
 
 ## berceaux-dacote
 
@@ -142,6 +142,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## datapaie
 
+- [2026-11-17](datapaie/2026-11-17.md)
 - [2026-11-16](datapaie/2026-11-16.md)
 - [2026-11-15](datapaie/2026-11-15.md)
 - [2026-11-14](datapaie/2026-11-14.md)
@@ -171,7 +172,6 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-16](datapaie/2026-10-16.md)
 - [2026-10-15](datapaie/2026-10-15.md)
 - [2026-10-14](datapaie/2026-10-14.md)
-- [2026-10-13](datapaie/2026-10-13.md)
 
 ## declaration-accident-travail
 
@@ -180,6 +180,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## divers
 
+- [2026-11-17](divers/2026-11-17.md)
 - [2026-11-16](divers/2026-11-16.md)
 - [2026-11-15](divers/2026-11-15.md)
 - [2026-11-14](divers/2026-11-14.md)
@@ -209,7 +210,6 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-20](divers/2026-10-20.md)
 - [2026-10-19](divers/2026-10-19.md)
 - [2026-10-18](divers/2026-10-18.md)
-- [2026-10-17](divers/2026-10-17.md)
 
 ## ebook
 
@@ -282,6 +282,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## micro-creche-facile
 
+- [2026-11-17](micro-creche-facile/2026-11-17.md)
 - [2026-11-16](micro-creche-facile/2026-11-16.md)
 - [2026-11-14](micro-creche-facile/2026-11-14.md)
 - [2026-11-13](micro-creche-facile/2026-11-13.md)
@@ -307,6 +308,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## openpaye-agent
 
+- [2026-11-17](openpaye-agent/2026-11-17.md)
 - [2026-11-16](openpaye-agent/2026-11-16.md)
 - [2026-11-12](openpaye-agent/2026-11-12.md)
 - [2026-11-11](openpaye-agent/2026-11-11.md)
@@ -372,6 +374,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## smartdatapay
 
+- [2026-11-17](smartdatapay/2026-11-17.md)
 - [2026-11-16](smartdatapay/2026-11-16.md)
 - [2026-11-15](smartdatapay/2026-11-15.md)
 - [2026-11-14](smartdatapay/2026-11-14.md)
@@ -401,7 +404,6 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-21](smartdatapay/2026-10-21.md)
 - [2026-10-20](smartdatapay/2026-10-20.md)
 - [2026-10-19](smartdatapay/2026-10-19.md)
-- [2026-10-18](smartdatapay/2026-10-18.md)
 
 ## tellmo
 
