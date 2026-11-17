@@ -32,3 +32,16 @@
 |---|---|---|---|
 | SmartDataPay — mise en ligne | **Annulé / sans effet** : le « oui » de Rose du 03/11 à 23 h 24 portait sur une version « prête depuis le 02/11 » que le bot SmartDataPay ne retrouve pas | Le go relayé par un autre bot ne vaut pas validation chez SmartDataPay ; production déjà mise à jour le 03/11 à 20 h 47 (version 564e88d4) ; PR 878 déjà autorisée à 13 h 05, mise en ligne prévue le 04/11 à 7 h si les contrôles sont verts | SmartDataPay posera lui-même sa question à Rose dans son chat |
 | SmartDataPay — texte de la première vidéo (bouton « Poser une question ») | Déjà validé par Rose | Rose répond « déjà validé » le 03/11 à 23 h 25 | Point clos |
+
+## 17/11/2026 18 h (Paris) — revue Fils rouges avec Rose
+- Serveur SDP sdp-vps-1 (session practical-greider-0f6b1f) : clos. Raison : redémarré, contrôles au vert.
+- Fusion SDP refusée (session smart-data-pay-claude-5-4fc9a5) : Rose donne son accord. Reste à le redonner dans cette session sur son PC.
+- Micro-crèche (session « a ») : la personne est recrutée pour encadrer les enfants.
+- Tests SDP (session nice-goodall-fd26ff) : Rose valide l'enregistrement des résultats. À valider dans cette session sur son PC.
+- Live du jeudi, direction visuelle étape 1/2 : clos, hors sujet selon Rose.
+- EBOOK 2027 : mails partis, clos.
+- Serveur Codex (session « m ») : Rose accepte le redémarrage pour supprimer 4 sessions ; transmis à Codex Serveur.
+- Younes : Rose a le RIB ; DSN à refaire dès qu'il est déposé pour le bot paie (jamais dans un chat).
+- Panier repas, jours travaillés sur 2 bulletins : clos, hors sujet.
+- Emilie MARTIN (session awesome-elgamal-ab82a4) : Courrier chargé de retrouver le mail et de proposer un brouillon, sans envoi.
+- Innov'Paie, onglet « Nouvelle embauche » : conservation 2 ans pour une embauche non aboutie (recommandation CNIL) ; clé de protection changée seulement en cas de fuite (choix de Rose, risque d'une fuite non détectée signalé).
