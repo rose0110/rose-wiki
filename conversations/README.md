@@ -4,6 +4,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## api-agent-openpaye
 
+- [2026-11-20](api-agent-openpaye/2026-11-20.md)
 - [2026-11-16](api-agent-openpaye/2026-11-16.md)
 - [2026-11-15](api-agent-openpaye/2026-11-15.md)
 - [2026-11-14](api-agent-openpaye/2026-11-14.md)
@@ -17,6 +18,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## assistant-reunions
 
+- [2026-11-20](assistant-reunions/2026-11-20.md)
 - [2026-11-18](assistant-reunions/2026-11-18.md)
 - [2026-11-13](assistant-reunions/2026-11-13.md)
 - [2026-11-12](assistant-reunions/2026-11-12.md)
@@ -28,6 +30,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## asteren-pablo
 
+- [2026-11-20](asteren-pablo/2026-11-20.md)
 - [2026-11-19](asteren-pablo/2026-11-19.md)
 - [2026-11-18](asteren-pablo/2026-11-18.md)
 - [2026-11-17](asteren-pablo/2026-11-17.md)
@@ -57,10 +60,10 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-22](asteren-pablo/2026-10-22.md)
 - [2026-10-21](asteren-pablo/2026-10-21.md)
 - [2026-10-20](asteren-pablo/2026-10-20.md)
-- [2026-10-19](asteren-pablo/2026-10-19.md)
 
 ## automatisation-fiona
 
+- [2026-11-20](automatisation-fiona/2026-11-20.md)
 - [2026-11-19](automatisation-fiona/2026-11-19.md)
 - [2026-11-18](automatisation-fiona/2026-11-18.md)
 - [2026-11-17](automatisation-fiona/2026-11-17.md)
@@ -90,10 +93,10 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-23](automatisation-fiona/2026-10-23.md)
 - [2026-10-22](automatisation-fiona/2026-10-22.md)
 - [2026-10-21](automatisation-fiona/2026-10-21.md)
-- [2026-10-20](automatisation-fiona/2026-10-20.md)
 
 ## berceaux-dacote
 
+- [2026-11-20](berceaux-dacote/2026-11-20.md)
 - [2026-11-19](berceaux-dacote/2026-11-19.md)
 - [2026-11-16](berceaux-dacote/2026-11-16.md)
 - [2026-11-14](berceaux-dacote/2026-11-14.md)
@@ -144,6 +147,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## datapaie
 
+- [2026-11-20](datapaie/2026-11-20.md)
 - [2026-11-19](datapaie/2026-11-19.md)
 - [2026-11-18](datapaie/2026-11-18.md)
 - [2026-11-17](datapaie/2026-11-17.md)
@@ -173,7 +177,6 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-19](datapaie/2026-10-19.md)
 - [2026-10-18](datapaie/2026-10-18.md)
 - [2026-10-17](datapaie/2026-10-17.md)
-- [2026-10-16](datapaie/2026-10-16.md)
 
 ## declaration-accident-travail
 
@@ -182,6 +185,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## divers
 
+- [2026-11-20](divers/2026-11-20.md)
 - [2026-11-19](divers/2026-11-19.md)
 - [2026-11-18](divers/2026-11-18.md)
 - [2026-11-17](divers/2026-11-17.md)
@@ -211,7 +215,6 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-23](divers/2026-10-23.md)
 - [2026-10-22](divers/2026-10-22.md)
 - [2026-10-21](divers/2026-10-21.md)
-- [2026-10-20](divers/2026-10-20.md)
 
 ## ebook
 
@@ -252,6 +255,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## innovpaie-automation-openpaye
 
+- [2026-11-20](innovpaie-automation-openpaye/2026-11-20.md)
 - [2026-11-19](innovpaie-automation-openpaye/2026-11-19.md)
 - [2026-11-18](innovpaie-automation-openpaye/2026-11-18.md)
 - [2026-11-16](innovpaie-automation-openpaye/2026-11-16.md)
@@ -281,7 +285,6 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-21](innovpaie-automation-openpaye/2026-10-21.md)
 - [2026-10-20](innovpaie-automation-openpaye/2026-10-20.md)
 - [2026-10-19](innovpaie-automation-openpaye/2026-10-19.md)
-- [2026-10-18](innovpaie-automation-openpaye/2026-10-18.md)
 
 ## micro-creche-facile
 
@@ -381,6 +384,7 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 
 ## smartdatapay
 
+- [2026-11-20](smartdatapay/2026-11-20.md)
 - [2026-11-19](smartdatapay/2026-11-19.md)
 - [2026-11-18](smartdatapay/2026-11-18.md)
 - [2026-11-17](smartdatapay/2026-11-17.md)
@@ -410,7 +414,6 @@ Exports quotidiens des sessions Claude Code et Codex, par projet.
 - [2026-10-24](smartdatapay/2026-10-24.md)
 - [2026-10-23](smartdatapay/2026-10-23.md)
 - [2026-10-22](smartdatapay/2026-10-22.md)
-- [2026-10-21](smartdatapay/2026-10-21.md)
 
 ## tellmo
 
